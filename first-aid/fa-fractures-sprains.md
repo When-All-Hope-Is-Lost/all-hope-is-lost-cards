@@ -10,7 +10,7 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 13 'Fractures and Splinting' (paras 13-10 to 13-34)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
   - title: "MedlinePlus (NLM): Sprains and Strains"
     url: https://medlineplus.gov/sprainsandstrains.html
     checked_date: 2026-10-16
@@ -21,7 +21,10 @@ region: US
 related: [fa-severe-bleeding, fa-shock]
 verify:
   - "Neck/back injury handling only summarized (ATP has litter procedures beyond lay scope); expert review REQUIRED"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Keep the injured part still** in the position you found it, and pad and splint it if you must move. Treat heavy bleeding first.

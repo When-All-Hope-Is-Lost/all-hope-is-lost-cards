@@ -51,6 +51,10 @@ sources:
     url: https://about.metservice.com/about-severe-weather-warnings
     checked_date: 2026-10-16
     license: "Foreign government page; reuse terms not relied on. Facts only, restated in own words, link-out."
+  - title: "NZ National Emergency Management Agency: Tsunami, Long or Strong, Get Gone"
+    url: https://www.civildefence.govt.nz/guidance-training/consistent-messages/tsunami
+    checked_date: 2026-10-16
+    license: "Foreign government page; reuse terms not relied on. Facts only, restated in own words, link-out."
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US (primary); UK, Ireland, Canada, Australia, New Zealand notes
@@ -85,7 +89,7 @@ verify:
 **Outside the US** (official sites, checked 2026-10-16):
 - **Emergency number:** UK **999 or 112** · Ireland **112 or 999** · Canada **911** (Nunavut and a few other places use local numbers) · Australia **000** (112 also works from a mobile; you can't text 000) · New Zealand **111**.
 - **Official warnings:** UK **Met Office** (yellow, amber, red) · Ireland **Met Éireann** (met.ie) · Canada **Environment and Climate Change Canada** (weather.gc.ca or the WeatherCAN app; yellow, orange, or red Warnings, Advisories, and Watches) · Australia **Bureau of Meteorology** (bom.gov.au), plus state emergency services (Advice, Watch and Act, Emergency Warning) · New Zealand **MetService** (metservice.com; Watches, then Orange and Red Warnings), plus local Civil Defence.
-- **Terms:** NZ and Australia have national tsunami warnings through their civil defence and emergency agencies (NZ Civil Defence; Australia via the Bureau of Meteorology). The NZ message 'Long or strong, get gone' means leave the coast after a long or strong earthquake (verify).
+- **Terms:** NZ and Australia have national tsunami warnings through their civil defence and emergency agencies (NZ Civil Defence; Australia via the Bureau of Meteorology). NZ Civil Defence says **'Long or Strong, Get Gone'**: if you're near the coast and an earthquake makes it hard to stand or lasts a minute or more, go to high ground or inland as soon as the shaking stops. Walk, run, or cycle if you can, and don't wait for an official warning.
 
 ## Source & license
 Adapted in our own words from Ready.gov "Tsunamis" (FEMA, public domain). Checked 2026-10-16. Reference to these agencies does not imply endorsement. International emergency numbers and warning-service facts come from the official national sites listed in the sources (facts only, linked). Card text licensed CC BY-SA 4.0.

@@ -30,7 +30,10 @@ related: [wildlife-rabid-animals, fa-severe-bleeding]
 verify:
   - "Coyote guidance now from US state agency FWC (fetched directly 2026-10-16); FWC reuse terms unverified, so facts only. CCOHS kept as secondary. No federal public-domain coyote encounter page found yet."
   - "Pack-specific advice (back to a wall, climb onto a car) is not in cited sources and was left out"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Don't run.** Stand still, stay calm, and turn your side toward the dog. Say "No!" or "Go home!" in a deep, firm voice, then back away slowly.

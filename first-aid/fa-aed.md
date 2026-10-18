@@ -22,7 +22,10 @@ related: [fa-cardiac-arrest-adult, fa-cpr-child-infant]
 verify:
   - "No public-domain US government AED how-to located this cycle (NHLBI page URL 404); seek NHLBI/NIH source in cycle 3. Expert review REQUIRED."
   - "Wikipedia sources disagree on metal underwire/piercings (one says remove, one says just avoid placing pads over them); card says keep pads off metal and remove if quick"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Turn the AED on and do what its voice tells you.** Keep doing CPR until it tells you to stop.

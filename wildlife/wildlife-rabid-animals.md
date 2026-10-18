@@ -30,7 +30,10 @@ related: [wildlife-dogs-coyotes, food-city-animals-risks]
 verify:
   - "CDC About Rabies page fetched directly 2026-10-16 (confirms wash bites immediately with soap and water, seek care urgently, PEP works if started before symptoms, bats leading cause of US deaths, vaccinate pets, keep wildlife wild). The 15-minute wash time and the bat-in-room guidance are still from search extracts (when-to-seek-care page returned HTTP 500)."
   - "Animal-signs list compiled from CDC plus AVMA/state extracts; expert review recommended"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Bitten or scratched by any animal? Wash the wound with soap and running water for 15 minutes**, then get medical care today.

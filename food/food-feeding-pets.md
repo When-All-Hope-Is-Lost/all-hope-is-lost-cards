@@ -23,7 +23,10 @@ verify:
   - "ASPCA figures are from a 2021 table; prices have changed"
   - "Missouri and local animal-abandonment law not checked; card says 'often illegal'"
   - "Local availability of pet-friendly shelters, foster, and intake programs varies"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified veterinary professional. Please confirm with a professional.
 
 ## Do this now
 **Ask for help early:** pet food pantries, low-cost vet care, or 2-1-1, before a crisis forces a hard choice.

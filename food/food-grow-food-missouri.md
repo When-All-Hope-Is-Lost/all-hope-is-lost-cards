@@ -24,6 +24,7 @@ review_status: self-reviewed
 region: Missouri
 related: [food-get-food-today, food-stretch-your-food, food-preserving-safely]
 verify:
+  - "Missouri zone range removed from body pending check against the 2023 USDA map"
   - "MU Extension soil-test cost and county-office seed availability not checked"
   - "Crop examples (greens, radishes, bush beans) are general; check days-to-harvest in G6201 or on the seed packet"
 ---
@@ -33,7 +34,7 @@ Plant the quickest crops your space and season allow, and **keep using food bank
 
 ## Steps
 1. **Find your planting dates** in MU Extension's free *Vegetable Planting Calendar* (G6201), which has a Missouri regions map and a table of dates.
-2. **Know your zone.** Look up your ZIP code on the USDA Plant Hardiness Zone Map (planthardiness.ars.usda.gov). Missouri falls roughly in zones 5b to 7b (verify), and your local extension office can confirm yours.
+2. **Know your zone.** Look up your ZIP code on the USDA Plant Hardiness Zone Map (planthardiness.ars.usda.gov). Your local extension office can confirm yours.
 3. **Start with quick, cheap crops from seed:** leafy greens and radishes in the cool seasons, and bush beans in the warm season. Check days-to-harvest on the seed packet.
 4. **No yard or renting?** Grow in containers or buckets with drainage holes. Herbs and some greens grow on a windowsill.
 5. **Plant again in fall** where the calendar lists a second set of dates.

@@ -26,7 +26,10 @@ related: [food-get-food-today, food-grow-food-missouri]
 verify:
   - "Steps 1-2 (two-source ID, mushrooms only with in-person expert) and contaminated-site list are design rules, not cited facts"
   - "Exact MDC page URLs for 3 CSR 10-11.135 and Natural Areas guidelines to be pinned"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Only eat a wild plant or mushroom if you're 100% sure what it is. When in doubt, throw it out.**

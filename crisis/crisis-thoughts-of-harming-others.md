@@ -32,7 +32,10 @@ verify:
   - "Steps 1-2 (create distance; remove dangerous items) are standard de-escalation and safety practice, not quoted from a listed source; expert reviewer to confirm"
   - "No 988 page found that explicitly says 'call if you're worried you might hurt someone else'; card relies on 'do not have to be suicidal' and SAMHSA's 'crisis de-escalation' wording"
   - "SAMHSA site reuse terms not checked"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 If anyone is in danger right now, call **911**. If not, step away from the person and call or text **988** to talk it through.

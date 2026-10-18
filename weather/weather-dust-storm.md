@@ -56,6 +56,7 @@ review_status: self-reviewed
 region: US (primary); UK, Ireland, Canada, Australia, New Zealand notes
 related: [vehicle-crash-stranded, weather-thunderstorm-lightning]
 verify:
+  - "Whether BoM issues dust-specific warnings not confirmed"
   - "Outside-the-US block: Met Office, Met Éireann, ECCC, CRTC and MetService pages fetched directly; GOV.UK 999/112, gov.ie, Australian Triple Zero, govt.nz 111 and BoM details from search extracts of those official pages. Terms marked (verify) not yet confirmed on an official page. Foreign reuse terms (OGL/CC BY) not relied on: facts only."
 ---
 
@@ -83,7 +84,7 @@ verify:
 **Outside the US** (official sites, checked 2026-10-16):
 - **Emergency number:** UK **999 or 112** · Ireland **112 or 999** · Canada **911** (Nunavut and a few other places use local numbers) · Australia **000** (112 also works from a mobile; you can't text 000) · New Zealand **111**.
 - **Official warnings:** UK **Met Office** (yellow, amber, red) · Ireland **Met Éireann** (met.ie) · Canada **Environment and Climate Change Canada** (weather.gc.ca or the WeatherCAN app; yellow, orange, or red Warnings, Advisories, and Watches) · Australia **Bureau of Meteorology** (bom.gov.au), plus state emergency services (Advice, Watch and Act, Emergency Warning) · New Zealand **MetService** (metservice.com; Watches, then Orange and Red Warnings), plus local Civil Defence.
-- **Terms:** Australia also has dust storms. The Bureau of Meteorology includes dust in its warnings (verify).
+- **Terms:** Australia also has dust storms. Check Bureau of Meteorology warnings.
 
 ## Source & license
 Adapted in our own words from NWS "Dust Storms and Haboobs" (public domain). Checked 2026-10-16. Reference to these agencies does not imply endorsement. International emergency numbers and warning-service facts come from the official national sites listed in the sources (facts only, linked). Card text licensed CC BY-SA 4.0.

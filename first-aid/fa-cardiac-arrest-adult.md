@@ -10,7 +10,7 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 6 'External Chest Compressions' (paras 6-45 to 6-48)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
@@ -19,10 +19,14 @@ further_reading:
   - title: "American Heart Association CPR (copyrighted; link only)"
     url: https://cpr.heart.org/
 verify:
+  - "Choking-collapse step (look in mouth, remove only visible object) needs expert-reviewer confirmation"
   - "Child/infant CPR needs its own card (ATP gives only brief notes); cycle 2"
   - "AED use not covered in source excerpt; add from a public-domain source in cycle 2"
   - "Expert review required before public release"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Call **911** and put it on speaker, then **push hard and fast in the center of the chest**.
@@ -40,7 +44,7 @@ Call **911** and put it on speaker, then **push hard and fast in the center of t
 ## If / then
 - **If** they start breathing or moving **then** stop compressions, roll them onto their side, and keep watching them.
 - **If** you suspect an opioid overdose **then** give naloxone if you have it (see the overdose card), and keep CPR going.
-- **If** they collapsed from choking **then** look in the mouth for the object before giving breaths; remove it only if you can see it (verify with expert reviewer).
+- **If** they collapsed from choking **then** look in the mouth for the object before giving breaths; remove it only if you can see it.
 
 ## Don't
 - Don't keep pausing. Compressions should be continuous until one of the stop conditions in step 8.

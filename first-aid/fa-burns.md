@@ -10,7 +10,7 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 12 'Burns' (paras 12-1 to 12-21)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
   - title: "MedlinePlus (NLM): Burns"
     url: https://medlineplus.gov/burns.html
     checked_date: 2026-10-16
@@ -26,7 +26,10 @@ related: [fa-shock, fa-cardiac-arrest-adult, hazmat-carbon-monoxide]
 verify:
   - "Cooling duration not given in cited sources (ATP: cool with clean water, no ice); add a public-domain figure in cycle 3"
   - "'Get medical care' thresholds (size, location) are partly general practice; expert review REQUIRED"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Stop the burning first:** put out flames, move the person away from the heat, chemical, or electricity, then cool the burn with clean water.

@@ -31,7 +31,10 @@ related: [crisis-thoughts-of-harming-others, mh-coping-with-stress, food-get-foo
 verify:
   - "Step 5 (distance from means) and step 6 (do not stay alone) are standard safety-planning practice but not quoted from a listed source; expert reviewer to confirm wording"
   - "chat.988lifeline.org loaded (HTTP 200) in an automated check; confirm in a browser before release"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 If you might act on these thoughts soon, call 911 now. Otherwise call or text **988** to talk to someone right away: free, confidential, 24/7.

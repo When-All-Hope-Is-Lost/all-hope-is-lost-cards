@@ -26,7 +26,10 @@ related: [food-get-food-today, food-small-game-trapping-missouri, wildlife-rabid
 verify:
   - "Pigeon disease specifics: no CDC page checked; 'avoid' is a design rule"
   - "'Poison/contamination you can't cook out' is a design rule, not a cited fact"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Go to a food bank or apply for SNAP before eating any wild city animal.** In Missouri, emergency (expedited) SNAP can arrive within 7 days.

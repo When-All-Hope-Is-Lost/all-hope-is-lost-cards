@@ -57,7 +57,10 @@ region: US (primary); UK, Ireland, Canada, Australia, New Zealand notes
 related: [fa-heat-illness, utility-power-outage, water-shortage-dehydration, weather-wildfire-smoke]
 verify:
   - "Outside-the-US block: Met Office, Met Éireann, ECCC, CRTC and MetService pages fetched directly; GOV.UK 999/112, gov.ie, Australian Triple Zero, govt.nz 111 and BoM details from search extracts of those official pages. Terms marked (verify) not yet confirmed on an official page. Foreign reuse terms (OGL/CC BY) not relied on: facts only."
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Get somewhere cool (air conditioning, or a cooling center), drink fluids, and check on anyone at risk.** Hot, red, dry skin, confusion, or passing out means **heat stroke: call 911.**

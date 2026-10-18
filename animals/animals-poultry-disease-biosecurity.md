@@ -44,7 +44,10 @@ verify:
   - "Missouri 24-hour reporting rule and phone (573) 751-3377 from search extract of agriculture.mo.gov; confirm on page"
   - "Marek's and coccidiosis facts from Wikipedia only; seek USDA/extension public-domain source; vet review recommended"
   - "No humane-euthanasia method is given on purpose; refer to a veterinarian"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified veterinary or medical professional. Please confirm with a professional.
 
 ## Do this now
 **Sudden deaths, or birds with swollen purple combs, gasping, or twisted necks? Report it today:** call the Missouri State Veterinarian (Animal Health) at **(573) 751-3377** or **USDA at 1-866-536-7593**. Keep people and other birds away.

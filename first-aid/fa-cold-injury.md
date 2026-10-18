@@ -14,14 +14,18 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 17 (paras 17-24 to 17-34)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
 related: [shelter-find-shelter-tonight, fa-cardiac-arrest-adult, hazmat-carbon-monoxide]
 verify:
+  - "Do-not-thaw-if-refreezing and walking-on-thawed-feet advice needs expert-reviewer confirmation"
   - "Refreezing caution (If/then 4) is standard wilderness-medicine advice not found in cited sources; expert review required"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Get the person **somewhere warm and dry, take off wet clothes, and wrap them in dry blankets.** If they're confused or very drowsy, **call 911**.
@@ -39,7 +43,7 @@ Get the person **somewhere warm and dry, take off wet clothes, and wrap them in 
 - **If** they're **unconscious and seem to have no pulse or breathing** **then** handle them **gently**, call 911, and start CPR while you keep warming them. Some people who look dead from cold can be revived.
 - **If** feet have been **cold and wet for a long time** (red, swollen, numb, tingling, itching, blisters, bad smell) **then** it may be trench foot: get to a warm, dry place, take off wet socks and boots, and dry the feet. Get medical care.
 - **If** a baby has **bright red, cold skin and very low energy** **then** that's hypothermia. Warm the baby and get help.
-- **If** frostbitten feet may refreeze before you reach help **then** don't thaw them yet. Walking on thawed frostbitten feet does more damage (verify with expert reviewer).
+- **If** frostbitten feet may refreeze before you reach help **then** don't thaw them yet. Walking on thawed frostbitten feet does more damage.
 
 ## Don't
 - **Don't rub or massage** frostbitten skin.

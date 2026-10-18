@@ -25,7 +25,10 @@ region: US
 related: [shelter-find-shelter-tonight, utility-shutoff-missouri, fa-cardiac-arrest-adult]
 verify:
   - "Step 3 (stay out until responders clear it) is from state/poison-center guidance, not the cited CDC page"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Get everyone (and pets) outside into fresh air right now, then call 911.** Don't stay inside to look for the source.
@@ -33,7 +36,7 @@ verify:
 ## Steps
 1. **Get out.** Bring everyone out, including pets. Help anyone who's drowsy or confused.
 2. **Call 911** from outside. For questions when no one has symptoms, call **Poison Help: 1-800-222-1222**.
-3. **Stay out** until emergency responders say it's safe to go back in, even if you start to feel better (verify).
+3. **Stay out** until emergency responders say it's safe to go back in, even if you start to feel better.
 4. **Get checked.** Anyone with symptoms needs medical care. CO poisoning can kill and can cause lasting harm.
 5. **Afterward,** have the furnace, water heater, and other gas-, oil-, or coal-burning appliances serviced by a qualified technician. CDC advises doing this every year.
 

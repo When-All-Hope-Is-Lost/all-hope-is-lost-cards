@@ -25,7 +25,10 @@ region: US
 related: [water-shortage-dehydration]
 verify:
   - "Ready.gov (2021) gives 1/8 tsp bleach per gallon for 5.25-6% bleach; CDC (current) gives 8 drops or a little less than 1/8 tsp for 5-9% bleach. Card follows CDC."
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Boil clear water for 1 minute** (3 minutes above 6,500 feet), and let it cool. Boiling is the best method.

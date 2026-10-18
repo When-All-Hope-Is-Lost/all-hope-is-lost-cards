@@ -4,10 +4,11 @@ Usage: python3 tools/build_index.py   (run from the repository root)"""
 import hashlib, json, os, re, sys, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REQ = ["id","title","category","tags","urgency","version","last_reviewed","sources","card_license","review_status","region"]
+BANNER = "> **Not yet professionally reviewed.**"
 HEAD = ["## Do this now","## Steps","## If / then","## Don't","## Get help now","## Source & license"]
 URG = {"call-911-now","urgent","soon","info"}
 STAT = {"draft","self-reviewed","expert-reviewed"}
-SKIP = {"tools"}
+SKIP = {"tools", "sources"}
 
 def scalar(fm, key):
     m = re.search(r"^%s:\s*(.*)$" % re.escape(key), fm, re.M)
@@ -37,12 +38,21 @@ def main():
             if not srcs: errors.append(f"{rel}: no sources")
             heads = re.findall(r"^## .*$", body, re.M)
             if heads != HEAD: errors.append(f"{rel}: headings {heads} != required order")
-            verify = len(re.findall(r"^  - ", fm.split("verify:",1)[1], re.M)) if "\nverify:" in fm else 0
+            vm = re.search(r"^verify:\n((?:  - .*\n?)*)", fm + "\n", re.M)
+            verify = len(re.findall(r"^  - ", vm.group(1), re.M)) if vm else 0
+            npr = scalar(fm, "needs_professional_review") == "true"
+            if re.search(r"^review_flags:.*-review-required", fm, re.M) and not npr:
+                errors.append(f"{rel}: review_flags set but needs_professional_review: true missing")
+            if npr and not body.lstrip().startswith(BANNER):
+                errors.append(f"{rel}: needs_professional_review is true but the body does not start with the banner '{BANNER}'")
+            for ln in body.splitlines():
+                if re.search(r"\(\s*verif|[;,]\s*verify\b|\bverify with expert", ln, re.I):
+                    errors.append(f"{rel}: reader-facing verify note in body (move it to the YAML verify: list): {ln.strip()[:80]}")
             cards.append({"id": cid, "title": scalar(fm,"title"), "category": d, "path": rel,
                 "urgency": scalar(fm,"urgency"), "review_status": scalar(fm,"review_status"),
                 "version": scalar(fm,"version"), "last_reviewed": scalar(fm,"last_reviewed"),
                 "region": scalar(fm,"region"), "crisis_link": scalar(fm,"crisis_link") == "true",
-                "sources": len(srcs), "open_verify_items": verify,
+                "needs_professional_review": npr, "sources": len(srcs), "open_verify_items": verify,
                 "sha256": hashlib.sha256(raw).hexdigest()})
     gen = datetime.date.today().isoformat()
     json.dump({"generated": gen, "format": "FORMAT.md", "card_count": len(cards), "cards": cards},

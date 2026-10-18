@@ -21,7 +21,10 @@ region: US
 related: [fa-cardiac-arrest-adult, fa-aed, fa-cpr-child-infant]
 verify:
   - "Aspirin for suspected heart attack deliberately left out: not in the cited CDC pages. Needs expert review before adding."
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Call 911 right away** for sudden stroke signs or heart attack signs. **Note the time symptoms started.** Don't drive yourself.

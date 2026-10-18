@@ -40,7 +40,10 @@ verify:
   - "'Don't take someone else's prescription' is standard advice without a cited source yet; expert review needed"
   - "Missouri MO HealthNet application route not yet re-verified (mydss.mo.gov route to confirm)"
   - "Manufacturer patient-assistance programs and emergency-refill rules not covered yet (cycle 2)"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Call your pharmacist** and say you can't afford or can't get your medication. Ask what your options are today.

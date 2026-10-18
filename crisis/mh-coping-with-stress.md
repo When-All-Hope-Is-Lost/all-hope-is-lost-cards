@@ -28,7 +28,10 @@ review_status: self-reviewed
 region: US
 crisis_link: true
 related: [crisis-thoughts-of-suicide, crisis-thoughts-of-harming-others]
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Take five minutes for yourself: slow, deep breaths, then talk to one person you trust about how you're feeling.

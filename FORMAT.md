@@ -35,7 +35,7 @@ card_license: CC BY-SA 4.0            # license of OUR card text
 review_status: self-reviewed          # draft | self-reviewed | expert-reviewed | retired
 region: US                            # US | US-MO | etc. (state-specific rules)
 ```
-Optional: `further_reading` (list of {title, url}, for copyrighted sources we link but never copy), `related` (list of card ids), `verify` (list of strings naming unconfirmed items; the app shows a "Some details need checking" badge if non-empty), `crisis_link: true` (adds the crisis bar to the top).
+Optional: `further_reading` (list of {title, url}, for copyrighted sources we link but never copy), `related` (list of card ids), `verify` (list of strings naming unconfirmed items; the app shows a "Some details need checking" badge if non-empty), `crisis_link: true` (adds the crisis bar to the top). `review_flags` (list; for example `[medical-review-required]` when a specific instruction needs a clinician to sign off before release, regardless of review_status).
 
 ## 3. Body (Markdown), fixed section order and headings
 ```
@@ -75,8 +75,17 @@ Readers must render these six headings in this order. Unknown extra sections mus
 - **Ready.gov:** no logos, no implied endorsement.
 - **Card license:** our text is **CC BY-SA 4.0** (compatible with Wikipedia excerpts). Public-domain facts stay public domain.
 - **Never fabricate numbers.** Every number traces to a listed source. Uncertain items go in `verify`.
+- **Card bodies must read clean.** Never put review notes such as "(verify)" or "verify with expert reviewer" in the body. Record them in the YAML `verify:` list, and either state the body claim plainly (if it is sourced) or leave it out. `tools/build_index.py` fails if a body contains "(verify", "; verify", or "verify with expert".
+- **"Outside the US" block (weather cards):** a short list under "## Get help now" giving emergency numbers, official warning services, and terminology for the UK, Ireland, Canada, Australia, and New Zealand. Use facts only, from official sites listed in `sources`, and keep US government sources primary.
 - **Safety:** defensive and safety content only. **Never instructions for harming people or animals.** Crisis cards put the crisis lines first, don't lecture, and always offer survival help (food, shelter, 211).
 - Medical cards say "get trained" where the source says training is needed, and are flagged for expert review before public release.
 
 ## 6. Review workflow
 `draft` → (self-review against sources, logged in QA.md) → `self-reviewed` → (qualified medical / crisis-line / legal reviewer) → `expert-reviewed`. **Public release requires expert review for `first-aid`, `crisis`, and `medication` cards**.
+
+### Professional-review banner
+`needs_professional_review: true` (optional, boolean) marks a card that gives medical, legal, or veterinary guidance and has not yet been checked by a qualified professional. When it is set, the body must open (before "## Do this now") with this banner, naming the right kind of professional:
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
+
+Use "legal professional (a lawyer)", "veterinary professional", or "veterinary or medical professional" as applicable. `tools/build_index.py` fails if the flag is set without the banner, or if `review_flags` contains a `*-review-required` value without the flag. `tools/add_review_banner.py KIND file...` adds both. Remove the banner and the flag only after a real professional review, and record who reviewed it and when in QA.md. Current scope: all first-aid, crisis, and medication cards; wildlife-rabid-animals, wildlife-dogs-coyotes, wildlife-snakes-spiders-missouri, wildlife-ticks; hazmat-carbon-monoxide, hazmat-chemical-shelter-in-place; water-emergency-treatment, water-shortage-dehydration; weather-extreme-heat; food-foraging-safely, food-preserving-safely, food-city-animals-risks; shelter-find-shelter-tonight; the animal-disease cards and food-feeding-pets (veterinary); shelter-eviction-rights-missouri (legal). Cards that only point to another card for health steps (for example winter storm, lightning, wildfire smoke, power outage) carry no banner.

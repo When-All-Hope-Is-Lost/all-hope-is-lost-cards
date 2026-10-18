@@ -20,9 +20,13 @@ review_status: self-reviewed
 region: US; Missouri contacts
 related: [food-chickens-rabbits-in-town, animals-poultry-disease-biosecurity]
 verify:
+  - "Confirm the USDA 1-866-536-7593 line accepts rabbit (RHDV2) reports"
   - "Missouri Animal Health phone from search extract; confirm on page"
   - "Vaccine availability by state changes; ask a vet"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified veterinary professional. Please confirm with a professional.
 
 ## Do this now
 **Rabbit died suddenly or has a bloody nose?** **Isolate the other rabbits and call your vet** (or the Missouri State Veterinarian, **(573) 751-3377**). Don't throw out the body until they tell you how.
@@ -45,7 +49,7 @@ verify:
 - Don't dispose of a rabbit carcass without asking your vet or animal-health officials first.
 
 ## Get help now
-Your vet, or the Missouri State Veterinarian / MDA Animal Health at **(573) 751-3377**. USDA: 1-866-536-7593 (the general USDA animal-disease line, also used for sick birds; verify that it takes rabbit reports).
+Your vet, or the Missouri State Veterinarian / MDA Animal Health at **(573) 751-3377**. USDA: 1-866-536-7593 (the general USDA animal-disease line).
 
 ## Source & license
 Source: USDA APHIS "Rabbit Hemorrhagic Disease" (public domain); Missouri Department of Agriculture Animal Health. Checked 2026-10-16. Card text licensed CC BY-SA 4.0.

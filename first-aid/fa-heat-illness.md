@@ -22,14 +22,17 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 17 (paras 17-9 to 17-20)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
 related: [water-shortage-dehydration, fa-cardiac-arrest-adult]
 verify:
   - "'Don't leave anyone in a parked car' is standard CDC heat advice but not in the pages fetched this cycle"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Confused, passing out, or very hot?** That's heat stroke. **Call 911 and cool them down fast with cold water.**

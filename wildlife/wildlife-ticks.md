@@ -23,7 +23,10 @@ card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
 related: [wildlife-snakes-spiders-missouri]
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Remove the tick right away:** grab it **close to the skin** with fine-tipped tweezers and **pull straight out with steady, even pressure.**

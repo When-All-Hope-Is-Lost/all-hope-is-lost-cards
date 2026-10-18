@@ -56,6 +56,7 @@ review_status: self-reviewed
 region: US
 related: [vehicle-crash-stranded, water-emergency-treatment, wildlife-snakes-spiders-missouri]
 verify:
+  - "UK flood-warning agencies (Environment Agency, SEPA, Natural Resources Wales, DfI Rivers) not confirmed on official pages this cycle"
   - "Outside-the-US block: Met Office, Met Éireann, ECCC, CRTC and MetService pages fetched directly; GOV.UK 999/112, gov.ie, Australian Triple Zero, govt.nz 111 and BoM details from search extracts of those official pages. Terms marked (verify) not yet confirmed on an official page. Foreign reuse terms (OGL/CC BY) not relied on: facts only."
 ---
 
@@ -86,7 +87,7 @@ verify:
 **Outside the US** (official sites, checked 2026-10-16):
 - **Emergency number:** UK **999 or 112** · Ireland **112 or 999** · Canada **911** (Nunavut and a few other places use local numbers) · Australia **000** (112 also works from a mobile; you can't text 000) · New Zealand **111**.
 - **Official warnings:** UK **Met Office** (yellow, amber, red) · Ireland **Met Éireann** (met.ie) · Canada **Environment and Climate Change Canada** (weather.gc.ca or the WeatherCAN app; yellow, orange, or red Warnings, Advisories, and Watches) · Australia **Bureau of Meteorology** (bom.gov.au), plus state emergency services (Advice, Watch and Act, Emergency Warning) · New Zealand **MetService** (metservice.com; Watches, then Orange and Red Warnings), plus local Civil Defence.
-- **Terms:** Australia: for flood and storm help (not life-threatening), call the State Emergency Service (SES) on 132 500. UK: flood warnings come from the national environment and flood agencies, alongside Met Office rain warnings (verify which agency covers your nation).
+- **Terms:** Australia: for flood and storm help (not life-threatening), call the State Emergency Service (SES) on 132 500. UK: England, Scotland, Wales, and Northern Ireland each have their own flood-warning agency, alongside Met Office rain warnings.
 
 ## Source & license
 Adapted in our own words from Ready.gov "Floods" (FEMA, public domain). Checked 2026-10-16. Reference to FEMA/Ready.gov or NWS does not imply endorsement. International emergency numbers and warning-service facts come from the official national sites listed in the sources (facts only, linked). Card text licensed CC BY-SA 4.0.

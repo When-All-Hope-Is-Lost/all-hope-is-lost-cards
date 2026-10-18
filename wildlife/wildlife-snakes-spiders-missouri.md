@@ -26,7 +26,10 @@ related: [fa-shock, fa-cardiac-arrest-adult]
 verify:
   - "CDC page text from search extracts; expert review recommended"
   - "Black widow description (shiny black, red hourglass) is general knowledge, not in fetched CDC extract"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Snake bite: call 911 or get to an ER now.** Keep calm and still, take off rings and watches, and **don't** cut, suck, ice, or tie off the bite.

@@ -33,7 +33,10 @@ region: US
 related: [food-get-food-today, crisis-thoughts-of-harming-others, utility-shutoff-missouri]
 verify:
   - "Step 5 (where to go if shelters are full) is general practice, not from a cited source"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Call **2-1-1** (or go to hud.gov/findshelter) and ask for an emergency shelter bed tonight. If it's freezing, say so.

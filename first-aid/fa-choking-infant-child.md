@@ -14,7 +14,7 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 5 (paras 5-31 to 5-34) and ch. 6 (para 6-45)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
@@ -23,8 +23,12 @@ further_reading:
   - title: "American Heart Association / American Red Cross infant choking courses (copyrighted; link only)"
     url: https://cpr.heart.org/
 verify:
+  - "Infant chest-thrust landmark (just below the nipple line) needs expert-reviewer confirmation"
   - "Primary source for infant technique is Wikipedia summarizing AHA guidance; no public-domain US government text found yet. Expert review REQUIRED before release."
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Baby can't cry, cough, or breathe? Have someone **call 911**. Start **5 back blows, then 5 chest thrusts**, and keep repeating.
@@ -35,7 +39,7 @@ Baby can't cry, cough, or breathe? Have someone **call 911**. Start **5 back blo
 2. **Back blows:** sit or kneel. Lay the baby **face down along your forearm**, resting on your thigh, head **lower than the chest**. Hold the jaw and head with your hand without covering the mouth or squeezing the throat.
 3. Give **5 firm back blows** between the shoulder blades with the heel of your other hand.
 4. **Chest thrusts:** support the head, turn the baby **face up** on your other forearm or thigh, head still lower than the chest.
-5. Put **2 fingers on the lower half of the breastbone** (just below the nipple line; verify) and give **5 quick downward thrusts**.
+5. Put **2 fingers on the lower half of the breastbone** (just below the nipple line) and give **5 quick downward thrusts**.
 6. **Repeat** 5 back blows and 5 chest thrusts until the object comes out or the baby becomes unresponsive.
 
 **Child over 1 year:** use the adult method (see the adult choking card). Kneel behind the child so your hands are at the right height, and use less force for a small child.

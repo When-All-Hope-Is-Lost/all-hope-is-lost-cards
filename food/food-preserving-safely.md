@@ -28,7 +28,10 @@ further_reading:
     url: https://nchfp.uga.edu/
 verify:
   - "'Dry canning' unsafe claim attributed to NCHFP (copyrighted, link only); fact restated, not copied"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Use only tested recipes** (from the National Center for Home Food Preservation, USDA, or a university extension), and follow them exactly.

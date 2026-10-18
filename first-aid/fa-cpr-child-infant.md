@@ -10,7 +10,7 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 6 'External Chest Compressions' (para 6-45)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
   - title: "Wikipedia: Cardiopulmonary resuscitation (compression depth, hands, child sequence), revision of 2026-10-16"
     url: https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation
     checked_date: 2026-10-16
@@ -20,9 +20,14 @@ review_status: self-reviewed
 region: US
 related: [fa-cardiac-arrest-adult, fa-choking-infant-child, fa-aed]
 verify:
+  - "Infant head-tilt (neutral position) wording needs expert-reviewer confirmation"
+  - "Infant mouth-and-nose breaths wording needs expert-reviewer confirmation"
   - "Depth figures: ATP says 1/3 to 1/2 of chest depth; Wikipedia (citing AHA) gives ~2 in (5 cm) child, ~1.6 in (4 cm) infant. Card states both. Expert review REQUIRED."
   - "Two-rescuer 15:2 ratio (trained rescuers) omitted for simplicity; infant mouth-and-nose breath and head position are not from cited text"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Not responding and not breathing normally? **Shout for help and start pushing on the chest** (2 fingers for a baby; 1 or 2 hands for a child) **hard and fast**.
@@ -36,7 +41,7 @@ Not responding and not breathing normally? **Shout for help and start pushing on
    - **Child:** the heel of 1 hand (or 2 hands for a bigger child) in the center of the chest.
 5. **Depth:** push down **about one-third of the chest's depth**: about **1½ inches (4 cm) for a baby** and about **2 inches (5 cm) for a child**.
 6. **Speed: 100 to 120 a minute.** Let the chest come all the way back up each time.
-7. **Breaths:** after **30 pushes**, tilt the head back slightly and lift the chin (for a baby, only slightly), then give **2 gentle breaths**. For a baby, you may need to cover the mouth and nose with your mouth (verify). Each breath should just make the chest rise.
+7. **Breaths:** after **30 pushes**, tilt the head back slightly and lift the chin (for a baby, only slightly), then give **2 gentle breaths**. For a baby, you may need to cover the mouth and nose with your mouth Each breath should just make the chest rise.
 8. **Keep going** (30 pushes, 2 breaths) until the child breathes or moves, help takes over, or an AED is ready.
 
 ## If / then
@@ -47,7 +52,7 @@ Not responding and not breathing normally? **Shout for help and start pushing on
 
 ## Don't
 - Don't push too gently. Shallow pushes don't move blood.
-- Don't tilt a baby's head far back. Babies aren't positioned with the full head tilt used for adults (verify with expert reviewer).
+- Don't tilt a baby's head far back. Babies aren't positioned with the full head tilt used for adults.
 - Don't stop to recheck over and over. Keep going.
 
 ## Get help now

@@ -56,6 +56,7 @@ review_status: self-reviewed
 region: US (primary); UK, Ireland, Canada, Australia, New Zealand notes
 related: [water-shortage-dehydration, water-emergency-treatment, weather-extreme-heat, weather-wildfire-smoke, food-grow-food-missouri]
 verify:
+  - "UK hosepipe-ban and Australian staged-restriction terms not confirmed on an official page"
   - "Outside-the-US block: Met Office, Met Éireann, ECCC, CRTC and MetService pages fetched directly; GOV.UK 999/112, gov.ie, Australian Triple Zero, govt.nz 111 and BoM details from search extracts of those official pages. Terms marked (verify) not yet confirmed on an official page. Foreign reuse terms (OGL/CC BY) not relied on: facts only."
   - "Drought-related health topics (well water quality, wildfire risk) not covered by the cited source; add CDC or EPA drought pages in a later cycle"
 ---
@@ -86,7 +87,7 @@ Ask your local water provider about restrictions and help. Drought watch: **US D
 **Outside the US** (official sites, checked 2026-10-16):
 - **Emergency number:** UK **999 or 112** · Ireland **112 or 999** · Canada **911** (Nunavut and a few other places use local numbers) · Australia **000** (112 also works from a mobile; you can't text 000) · New Zealand **111**.
 - **Official warnings:** UK **Met Office** (yellow, amber, red) · Ireland **Met Éireann** (met.ie) · Canada **Environment and Climate Change Canada** (weather.gc.ca or the WeatherCAN app; yellow, orange, or red Warnings, Advisories, and Watches) · Australia **Bureau of Meteorology** (bom.gov.au), plus state emergency services (Advice, Watch and Act, Emergency Warning) · New Zealand **MetService** (metservice.com; Watches, then Orange and Red Warnings), plus local Civil Defence.
-- **Terms:** UK and Ireland water companies may announce a 'hosepipe ban' (temporary use ban). Australia uses staged water restrictions (verify locally).
+- **Terms:** UK and Ireland water companies may announce a 'hosepipe ban' (temporary use ban). Australia uses staged water restrictions. Check with your local water provider.
 
 ## Source & license
 Adapted in our own words from Ready.gov "Drought" (FEMA, public domain). Checked 2026-10-16. Reference to these agencies does not imply endorsement. International emergency numbers and warning-service facts come from the official national sites listed in the sources (facts only, linked). Card text licensed CC BY-SA 4.0.

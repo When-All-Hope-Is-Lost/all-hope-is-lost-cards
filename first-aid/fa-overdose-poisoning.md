@@ -30,7 +30,10 @@ crisis_link: true
 related: [fa-cardiac-arrest-adult, crisis-thoughts-of-suicide]
 verify:
   - "Missouri Good Samaritan overdose law specifics not checked; card says only that most states have such laws (CDC)"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 If they won't wake up or are barely breathing, **give naloxone if you have it and call 911**.

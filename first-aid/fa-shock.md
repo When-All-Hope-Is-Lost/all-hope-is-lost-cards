@@ -10,14 +10,17 @@ sources:
   - title: "ATP 4-02.11 (23 Mar 2026), ch. 7 (paras 7-4 to 7-17) and ch. 8 (para 8-15)"
     url: https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf
     checked_date: 2026-10-16
-    license: "Public domain (US Government work); 'Approved for public release, distribution is unlimited'"
+    license: "Public domain (US Government work). Cover and title page carry 'Distribution Restriction: Approved for public release, distribution is unlimited.' (checked on the PDF itself, 2026-10-16)"
 card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
 related: [fa-severe-bleeding]
 verify:
   - "Military doctrine adapted to civilian use; expert review required before public release"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Call **911**, stop any bleeding first, then lay the person down and keep them warm.

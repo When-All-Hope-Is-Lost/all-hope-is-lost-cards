@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "format": "FORMAT.md",
-  "card_count": 56,
+  "card_count": 76,
   "cards": [
     {
       "id": "animals-poultry-disease-biosecurity",
@@ -14,9 +14,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US; Missouri contacts",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 7,
       "open_verify_items": 4,
-      "sha256": "332f70656ec04b55ee2d727ccfe2c5ad95798e8055f9d68d48cc756c448e88d5"
+      "sha256": "f99fdcd7d3e89f75c419af198805d38c3401aea0bfd020226e8e32bf1391f82b"
     },
     {
       "id": "animals-rabbit-rhdv2",
@@ -29,9 +30,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US; Missouri contacts",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
-      "open_verify_items": 2,
-      "sha256": "8aae7f65843a0bf330f0cb45445828f1e1818b42b0b6da37d36670ad674592d6"
+      "open_verify_items": 3,
+      "sha256": "b618021879d73b5c1065389e5739618dc19a4d689862e0fc540a87b535597309"
     },
     {
       "id": "comms-emergency-alerts",
@@ -44,6 +46,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 4,
       "open_verify_items": 1,
       "sha256": "0202e0e8e4f763888cfb20e0185308d066f520ec9692d8dea502c94074dcb1c2"
@@ -59,9 +62,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": true,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 3,
-      "sha256": "0f93649421dc1330dc289bfa9ac9c524e2a1a25fdd18866398409be2401991e7"
+      "sha256": "60103b17c92387f0f86fc9fe44a6fa98f3b3080d8759021d1a0a64ba26af3e17"
     },
     {
       "id": "crisis-thoughts-of-suicide",
@@ -74,9 +78,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": true,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 2,
-      "sha256": "f0b635bded355921d214349516afc865795754606330ddb929a51772b43b13ca"
+      "sha256": "325cd2820f344a26a38e1826855932d400535f8673e26b71622cbe7ec9286845"
     },
     {
       "id": "mh-coping-with-stress",
@@ -89,9 +94,42 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": true,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 0,
-      "sha256": "46e93c79c5130d3387d4d7bedeac749712c08f7ccab6c9ff09644b926e005153"
+      "sha256": "0063fb878a950eedd88a037f71f3c83201744873c4003ebdbae1ba2bb8cd41fe"
+    },
+    {
+      "id": "mh-supporting-kids-in-crisis",
+      "title": "Helping children and teens cope after a disaster or crisis",
+      "category": "crisis",
+      "path": "crisis/mh-supporting-kids-in-crisis.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.1",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": true,
+      "needs_professional_review": true,
+      "sources": 2,
+      "open_verify_items": 1,
+      "sha256": "831b798451d9bf3d52261c02b98a233da063ee1dde0420d54f517d715e2ed1aa"
+    },
+    {
+      "id": "safety-personal-security",
+      "title": "Staying safe: avoiding and calming conflict",
+      "category": "crisis",
+      "path": "crisis/safety-personal-security.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "0.1.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": false,
+      "sources": 3,
+      "open_verify_items": 0,
+      "sha256": "e256504f680c2a3a95729637981828997deb3a58222bc0385ac864500a54825d"
     },
     {
       "id": "fire-home-fire",
@@ -104,6 +142,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 3,
       "open_verify_items": 1,
       "sha256": "6c3b3a9b2d33dac1553e670fafffb59db34c345b5a3483fd43321e20a763cd35"
@@ -119,9 +158,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 2,
-      "sha256": "05567ddc020f092886dbb65e825762a2343ce8df57113c7a8deeeff61ff32d60"
+      "sha256": "9431e18399ca13996f2bf3f597f4a32505b4cdd3e7c2feb8bc13326e1ee3a792"
     },
     {
       "id": "fa-allergic-reaction-epinephrine",
@@ -130,13 +170,14 @@
       "path": "first-aid/fa-allergic-reaction-epinephrine.md",
       "urgency": "call-911-now",
       "review_status": "self-reviewed",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
-      "sources": 1,
+      "needs_professional_review": true,
+      "sources": 2,
       "open_verify_items": 2,
-      "sha256": "dc48e4473c74195588d0327a71680cc077b36c68022187508b7fca8a80772ec8"
+      "sha256": "95a3fa31da7158fabd90e570797b9025e17bacb3e62def9005643bcf8b6f094d"
     },
     {
       "id": "fa-burns",
@@ -149,9 +190,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 2,
-      "sha256": "3cfbbdd5fbdc9b07a24f4deb35b272fa8f141fb7c69da2db7bc03ec8dcdca91a"
+      "sha256": "69bad052f7ace11436e843b591c45b5926e5c8d5cd319de0f40a48f616ef9b49"
     },
     {
       "id": "fa-cardiac-arrest-adult",
@@ -164,9 +206,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 1,
-      "open_verify_items": 3,
-      "sha256": "003223d2965e4242cd46f343735fc7756fa6adeeada4cf3f1bf9f93df0f8c769"
+      "open_verify_items": 4,
+      "sha256": "1e20840278181744b6c062f205ec7fc7fd6b63549ae675050753170392a58910"
     },
     {
       "id": "fa-choking-adult",
@@ -179,9 +222,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 1,
-      "open_verify_items": 2,
-      "sha256": "9c79f2bab7bde2b346ea893857bb0779c3822dd3e8bc829f0808707eca922111"
+      "open_verify_items": 3,
+      "sha256": "e8ac6bcad77b8783484350515f7268d24b3f33f22a11658b701a24bb63cab445"
     },
     {
       "id": "fa-choking-infant-child",
@@ -194,9 +238,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
-      "open_verify_items": 1,
-      "sha256": "5d04840196dd89082247869a1e5409c9c0ee345905f67faf35b722a68196fdec"
+      "open_verify_items": 2,
+      "sha256": "895fd9bb5b90ac25fe88d29094d33dd9d23db0b858c0d5fb75d15469c1884c70"
     },
     {
       "id": "fa-cold-injury",
@@ -209,9 +254,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
-      "open_verify_items": 1,
-      "sha256": "c1b2e2620b117cd276ad500316fb1a5481a73e46331fcce0a5cb3184317a2ffe"
+      "open_verify_items": 2,
+      "sha256": "42b475df767158c95742e91b7927da186d034f4f789fc6711673ec99fa1a803f"
     },
     {
       "id": "fa-cpr-child-infant",
@@ -224,9 +270,58 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
+      "open_verify_items": 4,
+      "sha256": "0e0db8dbafe3be8540816ce596278df7d19924dbd76f37f78e71b93d92e07de1"
+    },
+    {
+      "id": "fa-dental-infection-abscess",
+      "title": "Toothache, dental infection, or abscess",
+      "category": "first-aid",
+      "path": "first-aid/fa-dental-infection-abscess.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 3,
+      "open_verify_items": 3,
+      "sha256": "30c8c598c0c0843ca79c705997cb0234b50799e27890090ec586b48526c4a6cc"
+    },
+    {
+      "id": "fa-diarrhea-oral-rehydration",
+      "title": "Diarrhea and vomiting: oral rehydration (ORS)",
+      "category": "first-aid",
+      "path": "first-aid/fa-diarrhea-oral-rehydration.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 3,
+      "open_verify_items": 3,
+      "sha256": "7706d92b3ffb741a895b8786cece199337a7802b445b5cd35e4bf780feca2ffe"
+    },
+    {
+      "id": "fa-drowning",
+      "title": "Drowning: rescue safely and prevent it",
+      "category": "first-aid",
+      "path": "first-aid/fa-drowning.md",
+      "urgency": "call-911-now",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 3,
       "open_verify_items": 2,
-      "sha256": "23e2c57ecc2eaadb10229af8c20571d2e827d2d4708526cbcf70715d46c401fc"
+      "sha256": "8a871e4febf4875a9c177427fc619aca3164a9764f40d59cdcefd839bce0f4cc"
     },
     {
       "id": "fa-fractures-sprains",
@@ -239,9 +334,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 1,
-      "sha256": "c2cbec1ebe8331f844e566ae972a40c158fd474d063c9894ea6b54a1ceded3a4"
+      "sha256": "f03d0a201f44674e526f53610a665e960de57c6550f154deb99b4dd8c5e701ae"
     },
     {
       "id": "fa-heat-illness",
@@ -254,9 +350,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 1,
-      "sha256": "b1a0280291701133b519f0ad7fda39bee81c82bcd6e95f932d8ed492a4d8e4c4"
+      "sha256": "ef78c88f8db4d5222d8428baf9b973177c3c4af899c6ffe4f352b0df4637c7de"
     },
     {
       "id": "fa-overdose-poisoning",
@@ -269,9 +366,26 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": true,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 1,
-      "sha256": "4e57d8bfd41fbcaf0abf031ef87111b3a8c3b40039344a385e263b7373cff727"
+      "sha256": "fbef635180f5e38325f40e29089c4be52289da3f6f021a5d38e3580baea7d64b"
+    },
+    {
+      "id": "fa-seizures",
+      "title": "Seizure first aid",
+      "category": "first-aid",
+      "path": "first-aid/fa-seizures.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 1,
+      "open_verify_items": 1,
+      "sha256": "28d8d45c32d68e22f8ccdadc96c00d1d1c89ba1b3a153fc1564f31da173b5fe5"
     },
     {
       "id": "fa-severe-bleeding",
@@ -280,13 +394,14 @@
       "path": "first-aid/fa-severe-bleeding.md",
       "urgency": "call-911-now",
       "review_status": "self-reviewed",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
-      "sources": 1,
-      "open_verify_items": 1,
-      "sha256": "3b20957052d1a78cb8e2796800a5158e4f0bae162dd02c629d0552c209f0aa9d"
+      "needs_professional_review": true,
+      "sources": 3,
+      "open_verify_items": 2,
+      "sha256": "8e9dd3362f53a2f96b601e3cb47d44d3428d1eca29a6adb5a727bd09d2e210ca"
     },
     {
       "id": "fa-shock",
@@ -299,9 +414,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 1,
       "open_verify_items": 1,
-      "sha256": "6d2a23cb12299ecd3af57192edc6e84bba9570098cc9312ae597751277d2be0c"
+      "sha256": "2b47f0b5004207864923835aa1a1605df8f0d4d83150b36e9401a283f9fce887"
     },
     {
       "id": "fa-stroke-heart-attack",
@@ -314,9 +430,26 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 1,
-      "sha256": "710f8bacc74b91acb924fa4ba667f87c68b65321132bb69ba80707b45259cc1f"
+      "sha256": "4489b2ab39d7b5ea2d6dfb92ec12ca890220181b7186e332523fc24752b320dc"
+    },
+    {
+      "id": "fa-wound-care-infection",
+      "title": "Cleaning wounds and spotting infection (and tetanus)",
+      "category": "first-aid",
+      "path": "first-aid/fa-wound-care-infection.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 4,
+      "open_verify_items": 1,
+      "sha256": "a092356b88f16c6d22101ca0789191891843f79a722ac94d602872280ab29efd"
     },
     {
       "id": "food-chickens-rabbits-in-town",
@@ -329,6 +462,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 1,
       "open_verify_items": 2,
       "sha256": "7b00068d895348c5ded1df3bd58b7dc33264061b73e0a0668ca6dbb45662a437"
@@ -344,9 +478,26 @@
       "last_reviewed": "2026-10-16",
       "region": "US (Missouri game rules noted)",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 2,
-      "sha256": "ba0897c1ea2655a96338f2e5fb86ce6834e8841a2250e0f856230e0a70e929fc"
+      "sha256": "605cc590efe5f822be3cd0ad72b2f20d9908c5de6f2545f8514eb77659723c68"
+    },
+    {
+      "id": "food-extreme-low-budget",
+      "title": "Eating on almost no money (making cheap staples survivable)",
+      "category": "food",
+      "path": "food/food-extreme-low-budget.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": false,
+      "sources": 5,
+      "open_verify_items": 3,
+      "sha256": "d8bf63fc7f85268ac9086a58f6923c417b90e8f750cc946d90b47fbc8db6f7c4"
     },
     {
       "id": "food-feeding-pets",
@@ -359,9 +510,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 3,
-      "sha256": "c1f4b616a629242432d50ac78abbd6db797e66b7000d88985a920c404883b3f1"
+      "sha256": "cf45d89ee60d0370b37578a72df7b765e66ec5407117cbdce2ed25374d31c215"
     },
     {
       "id": "food-foraging-safely",
@@ -374,9 +526,10 @@
       "last_reviewed": "2026-10-16",
       "region": "Missouri (land rules); US (safety)",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 2,
-      "sha256": "914c50ef28aec328a7f88c063b0d153d79243df16d67a57b7234c300332e2691"
+      "sha256": "6a8b5df36dc0425cc4399bf04a428de6c5bb0c52305c981446bed9a9550b9376"
     },
     {
       "id": "food-get-food-today",
@@ -389,6 +542,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US; Missouri details marked",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 6,
       "open_verify_items": 2,
       "sha256": "a3a46d41f2b2977ecc9f2e150999e76fe7086e67751ffbac443039b093081af2"
@@ -404,9 +558,26 @@
       "last_reviewed": "2026-10-16",
       "region": "Missouri",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 3,
-      "open_verify_items": 2,
-      "sha256": "b63d65d798758b3b8f8f9719238683240828e3b32419f7cebbfb54869d7e23c7"
+      "open_verify_items": 3,
+      "sha256": "d2f1f81572838890724bb6667fe0bf6cd2598d59467d1b5ebdf4fa339755ba90"
+    },
+    {
+      "id": "food-how-much-to-stockpile",
+      "title": "How much water and food to stockpile",
+      "category": "food",
+      "path": "food/food-how-much-to-stockpile.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": false,
+      "sources": 7,
+      "open_verify_items": 3,
+      "sha256": "8097bfdfb35dc2685fe8d69b4b4bdec7b28c324414cb4bbc8e203ec7f6bbfb79"
     },
     {
       "id": "food-preserving-safely",
@@ -419,9 +590,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 1,
-      "sha256": "f1950781a42749461ef8f9f307a91d17ac132ea2a01481fd23414b9180b42109"
+      "sha256": "6a8b17db6cc5ae952b2877425ecc7a61f127b513dfa3962530d873166b27524f"
     },
     {
       "id": "food-small-game-trapping-missouri",
@@ -434,6 +606,7 @@
       "last_reviewed": "2026-10-16",
       "region": "Missouri",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 3,
       "open_verify_items": 4,
       "sha256": "fdf9c92bcbe65687114b1761be5e9b34e8d56dfd064b6784451467d674ffd811"
@@ -449,6 +622,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 4,
       "open_verify_items": 1,
       "sha256": "29995cee8a82a63b655be9d524902aee2ba878203bac4424d84f49025b286b19"
@@ -464,9 +638,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 1,
-      "sha256": "8cc302653cf52bc82b459e3f360b48cbd969d9f7eb6421222cb22d432b8ab4c7"
+      "sha256": "262afd970b1b6e8eb278340f301ed43f7067d2928e7d68ad695fbc265f30c471"
     },
     {
       "id": "hazmat-chemical-shelter-in-place",
@@ -479,9 +654,58 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 1,
-      "sha256": "ccd904ed55cc6b9dc2706aa365971582fcdd0563bbd98cd580bbfbf744bcf4fc"
+      "sha256": "5a67e3078a12bb839285e48595ef272f3d411895b2a695dce7cd1f723d92f367"
+    },
+    {
+      "id": "med-drug-references",
+      "title": "Where to look up a medicine (trusted drug references)",
+      "category": "medication",
+      "path": "medication/med-drug-references.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 4,
+      "open_verify_items": 2,
+      "sha256": "c04318289f39dae812f56300dbf857c585efe91bf579e923ef85d267c4992779"
+    },
+    {
+      "id": "med-emergency-care-without-money",
+      "title": "Emergency care when you have no money or insurance",
+      "category": "medication",
+      "path": "medication/med-emergency-care-without-money.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 6,
+      "open_verify_items": 4,
+      "sha256": "f7e41cf498dc5949564bc377209c524c62fdf0fffb78ef6eb21d14c0c7c6b650"
+    },
+    {
+      "id": "med-expired-medication",
+      "title": "Expired medicine - what's known, what not to use, storage and disposal",
+      "category": "medication",
+      "path": "medication/med-expired-medication.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 6,
+      "open_verify_items": 3,
+      "sha256": "0053f0378f68bed2b6b8c4a441b923a79027273bda2a71d26daffac9070d76de"
     },
     {
       "id": "med-getting-medication",
@@ -494,9 +718,138 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 6,
       "open_verify_items": 4,
-      "sha256": "1c44d964fae71f6a99c0b179f027f8d262868e01933b042048828cf9737416a0"
+      "sha256": "27f3d987444a13424c19446017b03a86a5344008ebef2a666b4b97af8d518951"
+    },
+    {
+      "id": "med-insulin-without-power",
+      "title": "Insulin without power or refrigeration",
+      "category": "medication",
+      "path": "medication/med-insulin-without-power.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 2,
+      "open_verify_items": 1,
+      "sha256": "7c40c013e9c15c371df5cb9c2b98406a98bafb5d4e9e3be6714a0432c4d7c305"
+    },
+    {
+      "id": "med-when-you-cant-afford-a-prescription",
+      "title": "When you can't afford a prescription",
+      "category": "medication",
+      "path": "medication/med-when-you-cant-afford-a-prescription.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 10,
+      "open_verify_items": 3,
+      "sha256": "839e830a1fcf4e6b942146e3a69d57016967e978eddbf83aec0d7a53cf2ff905"
+    },
+    {
+      "id": "inf-caring-for-sick-at-home",
+      "title": "Caring for a sick person at home",
+      "category": "sanitation",
+      "path": "sanitation/inf-caring-for-sick-at-home.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "0.1.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 3,
+      "open_verify_items": 1,
+      "sha256": "f80fc87392479c9045a87f8bbb8019a9e76ac80dd480ed65b3b86da1306ce313"
+    },
+    {
+      "id": "inf-handwashing-no-water",
+      "title": "Clean hands when there's no running water",
+      "category": "sanitation",
+      "path": "sanitation/inf-handwashing-no-water.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "0.1.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 2,
+      "open_verify_items": 1,
+      "sha256": "2503051674ce83626f3d28e415ca2ac05125a1740e6ec9bb05a7f8878dcacfc5"
+    },
+    {
+      "id": "inf-isolation",
+      "title": "Staying away from others when you're sick",
+      "category": "sanitation",
+      "path": "sanitation/inf-isolation.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "0.1.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 2,
+      "open_verify_items": 0,
+      "sha256": "e4e7a392e55234c4d7ddc8f33e045e7e7a8d4534bc1844424de1c1201125224e"
+    },
+    {
+      "id": "sanitation-without-plumbing",
+      "title": "Toilets, waste, and handwashing without plumbing",
+      "category": "sanitation",
+      "path": "sanitation/sanitation-without-plumbing.md",
+      "urgency": "soon",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": false,
+      "sources": 4,
+      "open_verify_items": 1,
+      "sha256": "4cdf434d5ca7b2f8ccf763f66eb2acfc172f0140b524a780b709aa512406f4ae"
+    },
+    {
+      "id": "safety-evacuation",
+      "title": "Evacuating: when told to leave, or when you need to",
+      "category": "shelter",
+      "path": "shelter/safety-evacuation.md",
+      "urgency": "info",
+      "review_status": "self-reviewed",
+      "version": "0.1.0",
+      "last_reviewed": "2026-10-17",
+      "region": "US",
+      "crisis_link": false,
+      "needs_professional_review": false,
+      "sources": 1,
+      "open_verify_items": 0,
+      "sha256": "020cb2215cbd746cdab9a174c76000e10621332a41408380655078f5d1a5e300"
+    },
+    {
+      "id": "shelter-eviction-rights-missouri",
+      "title": "Facing eviction in Missouri: your basic rights (general information)",
+      "category": "shelter",
+      "path": "shelter/shelter-eviction-rights-missouri.md",
+      "urgency": "urgent",
+      "review_status": "self-reviewed",
+      "version": "1.0.0",
+      "last_reviewed": "2026-10-16",
+      "region": "US-MO",
+      "crisis_link": false,
+      "needs_professional_review": true,
+      "sources": 5,
+      "open_verify_items": 2,
+      "sha256": "de2f9267fcc4d35fec41fc2d3352511a96a40092bf9bcf87ff554896845f114b"
     },
     {
       "id": "shelter-find-shelter-tonight",
@@ -509,9 +862,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 5,
       "open_verify_items": 1,
-      "sha256": "f5783cdd07fe13d7347ad69ae62f7227b4e9dd13d5ea195c16165225266cfd21"
+      "sha256": "9c6e642e2757bd089abe874a5ff7f977ef2cd550b4c71b6c0847529064f5fb96"
     },
     {
       "id": "structure-collapse-gas-leak",
@@ -524,6 +878,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 2,
       "open_verify_items": 1,
       "sha256": "ce9ac1ea32ca082145489745b7be30a5014a5ddd45339a4d639e9e7b4e2b4bd1"
@@ -539,6 +894,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 1,
       "open_verify_items": 0,
       "sha256": "6a6e90345eb4006b837633909dd48b7e012824f6975998792d710c42db95e476"
@@ -554,6 +910,7 @@
       "last_reviewed": "2026-10-16",
       "region": "Missouri (Cold Weather Rule); LIHEAP and 211 are nationwide",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 5,
       "open_verify_items": 2,
       "sha256": "45a74c6f66405389215a0a6c9ce7598003675a862afb99d21248ac0b8239a69a"
@@ -569,6 +926,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 4,
       "open_verify_items": 2,
       "sha256": "8ce97fc44e6c5405d36bb4560c6ca86431c57ac108ee4a2d3e335520995563e6"
@@ -584,9 +942,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 1,
-      "sha256": "0dc2d9bfb0893e22bc80c384fe341a02ba40ccdbe0d0c20d61e643672209182d"
+      "sha256": "ea9777fdbd28af79944bb794e2ed6cbe638c2e919a942cede0b69f1207af16db"
     },
     {
       "id": "water-shortage-dehydration",
@@ -599,9 +958,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 2,
       "open_verify_items": 0,
-      "sha256": "6690fca53407b1d9496d54fa154e296f33c194da4a355b92669911c03b8d462e"
+      "sha256": "f7f4efd1d7ae47d8897c981165b23cbb76fb73ffdcc541f9aafd01e020eeeb0e"
     },
     {
       "id": "weather-drought",
@@ -614,9 +974,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 11,
-      "open_verify_items": 2,
-      "sha256": "188a100aa39ee14b8d3bed5a45a3715ed00c824e61a9904e1ec8f355581edfcd"
+      "open_verify_items": 3,
+      "sha256": "0afb3314f1f4a83668242f8f36ee10a41ec7505dcec62514dcbb0735ffd34e25"
     },
     {
       "id": "weather-dust-storm",
@@ -629,9 +990,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 11,
-      "open_verify_items": 1,
-      "sha256": "b640e15626dbf3bc49f39916d086c5d6204e7ff01b068e5d242b958e71e6244a"
+      "open_verify_items": 2,
+      "sha256": "42ab4806208730f10a3cecdd56a21b4e0b24198c7d8896d38c960cbf0db63228"
     },
     {
       "id": "weather-earthquake",
@@ -644,9 +1006,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 13,
-      "open_verify_items": 2,
-      "sha256": "84f17a8472b55292337729d725c0b6bbd11ea9dabdab3fbba2d1696b17c5a36f"
+      "open_verify_items": 3,
+      "sha256": "5c525d37b46e522bf72e742956f1bc546c1904441abd0aeee20af30dc5112e22"
     },
     {
       "id": "weather-extreme-heat",
@@ -659,9 +1022,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 11,
       "open_verify_items": 1,
-      "sha256": "94af502af73539a708a55de68fc3f3190bde3ef35c83d28b7735547c5bebfe65"
+      "sha256": "c7403dde6319976b3f2ee1e60f691eeb565f4aa292d8f200d0f2cc7eb16cdba8"
     },
     {
       "id": "weather-flood",
@@ -674,9 +1038,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 11,
-      "open_verify_items": 1,
-      "sha256": "064628a375ca6a2dc3f43b179e2348ccd45579dda9ad5ec6bf2676d99ea1ed40"
+      "open_verify_items": 2,
+      "sha256": "db885b83bc2b37ad5c690b98851545f4996137be568d34962cc4927407fa350b"
     },
     {
       "id": "weather-hurricane",
@@ -689,6 +1054,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 11,
       "open_verify_items": 1,
       "sha256": "ef767e283cf48ae9b55d0ddf74e1f08d5c34cc0f4f6475a6918d59aab6f4f089"
@@ -704,6 +1070,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 13,
       "open_verify_items": 2,
       "sha256": "9b2b13a05bc565476ded97886ca26ec3074b7ff62518fc60c4363ab29de78025"
@@ -719,6 +1086,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US (Midwest and Southeast at greater risk)",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 11,
       "open_verify_items": 1,
       "sha256": "b218f2e9dbee2cef9bf1dd487dc8c3a641f8096190a8478870103d5e198ca60f"
@@ -734,9 +1102,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
-      "sources": 11,
+      "needs_professional_review": false,
+      "sources": 12,
       "open_verify_items": 1,
-      "sha256": "2e43eacaffd42bf143cba241fef24304814e72331d49e94e786588ad8bfb09f4"
+      "sha256": "57238d4589117f69cae6ae5024a373fdf25d08c00ce1c498b59e708aaaf529f2"
     },
     {
       "id": "weather-wildfire-smoke",
@@ -749,6 +1118,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US (primary); UK, Ireland, Canada, Australia, New Zealand notes",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 12,
       "open_verify_items": 1,
       "sha256": "f13500107590f7d89bbdb9e6de1cbd471e3fa87ab5b00c32fc4922042c7a692c"
@@ -764,6 +1134,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 12,
       "open_verify_items": 1,
       "sha256": "6550e953cc7800a150431efc0f94b59ac56c692f975b4f604d6dec61bf563cba"
@@ -779,6 +1150,7 @@
       "last_reviewed": "2026-10-16",
       "region": "US (Missouri has a small, growing black bear population; no moose)",
       "crisis_link": false,
+      "needs_professional_review": false,
       "sources": 3,
       "open_verify_items": 1,
       "sha256": "6fcb796e89b79e3edd0c89bba3f9d88ab06a31e60a70a55ddcf638abb0e2dd37"
@@ -794,9 +1166,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 2,
-      "sha256": "1c5396dc16fa7a8c27bd3bcc0feaa504983447db7e9cba17e0674712a8b2fb3b"
+      "sha256": "402767d73fe85c6ab0eb8b0272a626ca2705221671403c612262c06c5bc7777b"
     },
     {
       "id": "wildlife-rabid-animals",
@@ -809,9 +1182,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 4,
       "open_verify_items": 2,
-      "sha256": "252a8a25184735df843b16fde4e52042d5eb95dcb28d9996fd827109493b74df"
+      "sha256": "ee05c26791b807bf69e0a244c7c1c911e7cdd1454d5018d80d19181fc097f5d0"
     },
     {
       "id": "wildlife-snakes-spiders-missouri",
@@ -824,9 +1198,10 @@
       "last_reviewed": "2026-10-16",
       "region": "Missouri (species); US (first aid)",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 2,
-      "sha256": "660e0eb190629b45a3130620f0cb81909cf6bd8c72f59345a44f4d6a94c5c69e"
+      "sha256": "abea9b16a0e93c8835c15889408b6f7983b6c8e3c9b82fbdb57b02bb5399293f"
     },
     {
       "id": "wildlife-ticks",
@@ -839,9 +1214,10 @@
       "last_reviewed": "2026-10-16",
       "region": "US",
       "crisis_link": false,
+      "needs_professional_review": true,
       "sources": 3,
       "open_verify_items": 0,
-      "sha256": "4236fcfb55dd47c8a8ce6c6b552c7d59959f1c87489f9a2a921032eb33565220"
+      "sha256": "b1943057b6382e826326d78cda8085433a657a338c2289c8424a41037c09cebc"
     }
   ]
 }

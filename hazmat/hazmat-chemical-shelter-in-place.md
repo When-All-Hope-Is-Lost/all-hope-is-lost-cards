@@ -21,7 +21,10 @@ region: US
 related: [hazmat-carbon-monoxide, fa-burns, comms-emergency-alerts]
 verify:
   - "Ready.gov step to put eyeglasses in household bleach omitted (unclear for lay use); expert review"
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 **Follow official instructions right away.** If you're outside, **move upwind** and away from the source. If you're told to stay inside, **close everything and seal one interior room.**

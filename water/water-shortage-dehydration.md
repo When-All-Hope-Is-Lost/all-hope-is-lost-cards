@@ -19,7 +19,10 @@ card_license: CC BY-SA 4.0
 review_status: self-reviewed
 region: US
 related: [water-emergency-treatment]
+needs_professional_review: true
 ---
+
+> **Not yet professionally reviewed.** This card has not been checked by a qualified medical professional. Please confirm with a professional.
 
 ## Do this now
 Drink what you need today. **Don't ration drinking water** unless authorities tell you to. Then work on finding more for tomorrow.
