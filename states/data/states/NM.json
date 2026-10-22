@@ -1,0 +1,197 @@
+{
+ "schema_version": "1.0",
+ "code": "NM",
+ "name": "New Mexico",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "New Mexico Department of Game and Fish",
+  "home_url": "https://wildlife.dgf.nm.gov/",
+  "regulations_url": "https://wildlife.dgf.nm.gov/hunting/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200-hub"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "quail",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "mourning dove",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "grouse",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "mule deer",
+   "seasons": "check agency",
+   "confirmed": false
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "rainbow trout (stocked)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "catfish",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "bass",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "prickly pear",
+   "scientific": "Opuntia spp.",
+   "lookalike_warning": "Use gloves and tongs. Remove spines and tiny glochids (singe, scrub or peel) before eating.",
+   "usda_symbols": [
+    "OPUNT"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Nevada, Reno Extension, Eating Cactus",
+    "url": "https://extension.unr.edu/publication.aspx?PubID=2157",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "pinyon pine nuts",
+   "scientific": "Pinus edulis / P. monophylla",
+   "lookalike_warning": "Some other conifers (yew) are toxic; know the tree.",
+   "usda_symbols": [
+    "PIED",
+    "PIMO"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "purslane",
+   "scientific": "Portulaca oleracea",
+   "lookalike_warning": "Toxic lookalike: prostrate spurge, which has milky white sap. Purslane has clear sap and yellow flowers.",
+   "usda_symbols": [
+    "POOL"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Mississippi State University Extension, Common Purslane",
+    "url": "https://extension.msstate.edu/publications/forgotten-foods-common-purslane",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "acorns (leached)",
+   "scientific": "Quercus spp.",
+   "lookalike_warning": "Grind and soak in cold water, changing it often, until no longer bitter (removes tannins). Don't confuse with toxic buckeye nuts, which have no scaly cap.",
+   "usda_symbols": [
+    "QUERC"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Penn State, Go Nuts for Acorns",
+    "url": "https://ecosystems.psu.edu/research/centers/private-forests/news/go-nuts-for-acorns",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "5a-8b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "hot-dry",
+ "heating_cooling": "Heat is the main threat. Plan shade, airflow and water; rest midday; know cooling centers; watch for heat illness.",
+ "water": {
+  "risks": [
+   "Drought: supplies can be rationed; store water early.",
+   "Flash floods in dry washes; never camp or drive in them.",
+   "Arsenic: USGS estimates roughly 31,000 people here use private wells likely above EPA's arsenic limit (2017 model estimate). Boiling does NOT remove arsenic; test private wells."
+  ],
+  "drinking_water_program": "Search 'New Mexico drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-drought",
+  "weather-wildfire-smoke",
+  "weather-extreme-heat",
+  "weather-flood",
+  "weather-dust-storm"
+ ],
+ "region": "southwest",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "game_species: big game not individually confirmed: mule deer",
+  "forage wording not yet checked against extension sources: pinyon pine nuts",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Drought; Flash floods in dry washes; never camp o",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "http200-hub",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://wildlife.dgf.nm.gov/fishing/game-fish/warm-water/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "species_note": "Cottontail was not listed as small game in the summary seen; check NMDGF before hunting rabbits.",
+ "garden": {
+  "extension_name": "NMSU Cooperative Extension",
+  "extension_url": "https://extension.nmsu.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

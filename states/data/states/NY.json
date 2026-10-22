@@ -1,0 +1,260 @@
+{
+ "schema_version": "1.0",
+ "code": "NY",
+ "name": "New York",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "New York State Department of Environmental Conservation",
+  "home_url": "https://dec.ny.gov/",
+  "regulations_url": "https://dec.ny.gov/things-to-do/hunting/regulations",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok-search"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "search"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "rabbit and hare",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "squirrel",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "ruffed grouse",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "white-tailed deer",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "wild turkey",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "sunfish (bluegill, pumpkinseed)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "yellow perch",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "largemouth bass",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "brook trout",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "walleye",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blackberry/raspberry",
+   "scientific": "Rubus spp.",
+   "lookalike_warning": "No dangerous lookalikes, but confirm it is a thorny bramble and eat only ripe fruit.",
+   "usda_symbols": [
+    "RUBUS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, Brambles",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-02-brambles-pesky-garden-weed-or-delicious-summer-treat",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "black walnut / hickory nuts",
+   "scientific": "Juglans nigra / Carya spp.",
+   "lookalike_warning": "Buckeye nuts look similar and are toxic.",
+   "usda_symbols": [
+    "JUNI",
+    "CAOV2"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild grape",
+   "scientific": "Vitis spp.",
+   "lookalike_warning": "Toxic lookalike: Canada moonseed. Each moonseed berry has one flat crescent-shaped seed; never eat it.",
+   "usda_symbols": [
+    "VITIS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "NC State Extension Plant Toolbox, Menispermum canadense",
+    "url": "https://plants.ces.ncsu.edu/plants/menispermum-canadense/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "blueberry/huckleberry",
+   "scientific": "Vaccinium spp.",
+   "lookalike_warning": "Toxic lookalikes include baneberry (highly toxic red or white berries) and nightshade; know the plant, not just the berry.",
+   "usda_symbols": [
+    "VACCI"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Wisconsin Extension, Baneberry",
+    "url": "https://hort.extension.wisc.edu/articles/baneberry-actaea-spp/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "rose hips",
+   "scientific": "Rosa spp.",
+   "lookalike_warning": "Remove the seeds and hairy inner lining; the hairs irritate the throat and gut.",
+   "usda_symbols": [
+    "ROAC",
+    "ROWO",
+    "ROCA4",
+    "ROMU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "WSU Extension B1210, Wild Berries and Other Wild Fruit",
+    "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/68/2021/06/Wild-Berries-and-Other-Wild-Fruit-B1210-3.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "cattail",
+   "scientific": "Typha spp.",
+   "lookalike_warning": "Young shoots resemble toxic irises; only harvest from clean water.",
+   "usda_symbols": [
+    "TYPHA"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "4a-7b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "cold-humid",
+ "heating_cooling": "Cold winters are the main threat. Plan to heat one small room; insulate windows; layer wool or synthetics; never use grills, ovens or generators indoors.",
+ "water": {
+  "risks": [
+   "Harmful algal blooms: boiling does NOT remove the toxins and can concentrate them; avoid scummy, discolored water (EPA, CDC).",
+   "Coastal flooding can push salt water and sewage into supplies.",
+   "Arsenic: USGS estimates roughly 66,000 people here use private wells likely above EPA's arsenic limit (2017 model estimate). Boiling does NOT remove arsenic; test private wells."
+  ],
+  "drinking_water_program": "Search 'New York drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-winter-storm",
+  "weather-hurricane",
+  "weather-flood",
+  "weather-extreme-heat"
+ ],
+ "region": "northeast",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "forage wording not yet checked against extension sources: black walnut / hickory nuts, cattail",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Harmful algal blooms; Coastal flooding can push salt water and",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.home_url",
+   "how": "ok-search",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "agency.regulations_url",
+   "how": "search",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://dec.ny.gov/things-to-do/hunting/small-game",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "Cornell Cooperative Extension",
+  "extension_url": "https://cce.cornell.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "schema_version": "1.0",
+ "code": "DC",
+ "name": "District of Columbia",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "DC Department of Energy and Environment (fisheries and wildlife)",
+  "home_url": "https://doee.dc.gov/",
+  "regulations_url": "https://doee.dc.gov/service/fishing-district",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [],
+ "fish_species": [
+  {
+   "name": "sunfish (limit meals)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "channel and blue catfish (limit meals)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "brown bullhead (limit meals)",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "mulberry",
+   "scientific": "Morus spp.",
+   "lookalike_warning": "Unripe berries upset the stomach.",
+   "usda_symbols": [
+    "MORUS"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "7b-8a",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "mixed-humid",
+ "heating_cooling": "Both seasons matter: plan for winter heat loss and summer heat illness.",
+ "water": {
+  "risks": [
+   "Urban streams carry sewage overflow after storms; never drink untreated.",
+   "DC fish advisory: do not eat eel, carp, striped bass or largemouth bass from DC waters (PCBs, PFAS); limit other species (DOEE)."
+  ],
+  "drinking_water_program": "Search 'District of Columbia drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-flood",
+  "weather-extreme-heat",
+  "weather-winter-storm",
+  "weather-hurricane"
+ ],
+ "region": "urban",
+ "note": "Hunting is effectively not an option in DC; fishing needs a DC license and fish-eating advisories apply.",
+ "unverified": [
+  "climate_class",
+  "forage wording not yet checked against extension sources: mulberry",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Urban streams carry sewage overflow afte",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "http200",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://doee.dc.gov/sites/default/files/dc/sites/doee/service_content/attachments/08-05-2024%20Fish%20Advisory%20Language%20clean%20%28004%29.pdf",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "species_note": "DC fish advisory: do NOT eat eel, carp, striped bass or largemouth bass from DC waters (PCBs, PFAS).",
+ "garden": {
+  "extension_name": "UDC Cooperative Extension Service",
+  "extension_url": "https://www.udc.edu/causes/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

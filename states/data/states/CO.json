@@ -1,0 +1,216 @@
+{
+ "schema_version": "1.0",
+ "code": "CO",
+ "name": "Colorado",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "Colorado Parks and Wildlife",
+  "home_url": "https://cpw.state.co.us/",
+  "regulations_url": "https://cpw.state.co.us/hunting",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200-hub"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "cottontail rabbit",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "snowshoe hare",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "dusky grouse (west of I-25)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "mule deer",
+   "seasons": "check agency",
+   "confirmed": false
+  },
+  {
+   "name": "elk (usually limited licenses)",
+   "seasons": "check agency",
+   "confirmed": false
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "rainbow trout",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "cutthroat trout (catch-and-release on many waters)",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blueberry/huckleberry",
+   "scientific": "Vaccinium spp.",
+   "lookalike_warning": "Toxic lookalikes include baneberry (highly toxic red or white berries) and nightshade; know the plant, not just the berry.",
+   "usda_symbols": [
+    "VACCI"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Wisconsin Extension, Baneberry",
+    "url": "https://hort.extension.wisc.edu/articles/baneberry-actaea-spp/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "rose hips",
+   "scientific": "Rosa spp.",
+   "lookalike_warning": "Remove the seeds and hairy inner lining; the hairs irritate the throat and gut.",
+   "usda_symbols": [
+    "ROAC",
+    "ROWO",
+    "ROCA4",
+    "ROMU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "WSU Extension B1210, Wild Berries and Other Wild Fruit",
+    "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/68/2021/06/Wild-Berries-and-Other-Wild-Fruit-B1210-3.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "pinyon pine nuts",
+   "scientific": "Pinus edulis / P. monophylla",
+   "lookalike_warning": "Some other conifers (yew) are toxic; know the tree.",
+   "usda_symbols": [
+    "PIED",
+    "PIMO"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild onion/garlic",
+   "scientific": "Allium spp.",
+   "lookalike_warning": "Toxic lookalike: death camas, which has no onion smell in any part. No onion smell = do not eat.",
+   "usda_symbols": [
+    "ALLIU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Montana State University Extension, Death camas",
+    "url": "https://www.montana.edu/extension/powderriver/documents/Death%20camas%202020.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "4a-7a",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "cold-dry",
+ "heating_cooling": "Cold winters are the main threat. Plan to heat one small room; insulate windows; layer wool or synthetics; never use grills, ovens or generators indoors.",
+ "water": {
+  "risks": [
+   "Clear mountain streams can carry Giardia; treat all surface water.",
+   "Drought: supplies can be rationed; store water early.",
+   "Old mine drainage can contaminate streams with metals; avoid orange or unusual streams.",
+   "Arsenic: USGS estimates roughly 14,000 people here use private wells likely above EPA's arsenic limit (2017 model estimate). Boiling does NOT remove arsenic; test private wells."
+  ],
+  "drinking_water_program": "Search 'Colorado drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-winter-storm",
+  "weather-wildfire-smoke",
+  "weather-flood",
+  "weather-drought",
+  "weather-thunderstorm-lightning"
+ ],
+ "region": "mountain",
+ "note": "High altitude makes cold and dehydration worse.",
+ "unverified": [
+  "climate_class",
+  "game_species: big game not individually confirmed: mule deer, elk (usually limited licenses)",
+  "forage wording not yet checked against extension sources: pinyon pine nuts",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Clear mountain streams can carry Giardia; Drought; Old mine drainage can contaminate stream",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "http200-hub",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://cpw.state.co.us/fish-species-information-list",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "Colorado State University Extension",
+  "extension_url": "https://extension.colostate.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "schema_version": "1.0",
+ "code": "AK",
+ "name": "Alaska",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "Alaska Department of Fish and Game",
+  "home_url": "https://www.adfg.alaska.gov/",
+  "regulations_url": "https://www.adfg.alaska.gov/index.cfm?adfg=regulations.main",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "snowshoe hare",
+   "seasons": "check agency"
+  },
+  {
+   "name": "spruce grouse",
+   "seasons": "check agency"
+  },
+  {
+   "name": "moose (licensed)",
+   "seasons": "check agency"
+  },
+  {
+   "name": "caribou (licensed)",
+   "seasons": "check agency"
+  },
+  {
+   "name": "willow and rock ptarmigan (all ptarmigan rules vary by unit)",
+   "seasons": "check agency"
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "salmon (Chinook, chum, coho, pink, sockeye)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "Arctic grayling",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "Dolly Varden",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "rainbow trout",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "northern pike",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blueberry/huckleberry",
+   "scientific": "Vaccinium spp.",
+   "lookalike_warning": "Toxic lookalikes include baneberry (highly toxic red or white berries) and nightshade; know the plant, not just the berry.",
+   "usda_symbols": [
+    "VACCI"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Wisconsin Extension, Baneberry",
+    "url": "https://hort.extension.wisc.edu/articles/baneberry-actaea-spp/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region AK, checked 2026-10-21"
+  },
+  {
+   "name": "lingonberry/cloudberry",
+   "scientific": "Vaccinium vitis-idaea / Rubus chamaemorus",
+   "lookalike_warning": "Toxic lookalike: baneberry (highly toxic red or white berries).",
+   "usda_symbols": [
+    "VAVI",
+    "RUCH"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Wisconsin Extension, Baneberry",
+    "url": "https://hort.extension.wisc.edu/articles/baneberry-actaea-spp/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region AK, checked 2026-10-21"
+  },
+  {
+   "name": "fireweed",
+   "scientific": "Chamerion angustifolium",
+   "lookalike_warning": "Confirm ID; young shoots only.",
+   "usda_symbols": [
+    "CHAN9"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region AK, checked 2026-10-21"
+  },
+  {
+   "name": "rose hips",
+   "scientific": "Rosa spp.",
+   "lookalike_warning": "Remove the seeds and hairy inner lining; the hairs irritate the throat and gut.",
+   "usda_symbols": [
+    "ROAC",
+    "ROWO",
+    "ROCA4",
+    "ROMU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "WSU Extension B1210, Wild Berries and Other Wild Fruit",
+    "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/68/2021/06/Wild-Berries-and-Other-Wild-Fruit-B1210-3.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region AK, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "1a-8b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "subarctic-arctic",
+ "heating_cooling": "Cold winters are the main threat. Plan to heat one small room; insulate windows; layer wool or synthetics; never use grills, ovens or generators indoors.",
+ "water": {
+  "risks": [
+   "Clear mountain streams can carry Giardia; treat all surface water.",
+   "Pipes and supplies freeze; keep water from freezing.",
+   "Many communities are off the road system; resupply may take weeks."
+  ],
+  "drinking_water_program": "Search 'Alaska drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-earthquake",
+  "weather-tsunami",
+  "weather-winter-storm",
+  "weather-wildfire-smoke",
+  "weather-flood"
+ ],
+ "region": "alaska",
+ "note": "Subsistence rules exist but have their own eligibility and permits; check ADF&G.",
+ "unverified": [
+  "climate_class",
+  "game_species: big-game items (deer, moose, caribou, elk) not individually checked; small game confirmed",
+  "forage wording not yet checked against extension sources: fireweed",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Clear mountain streams can carry Giardia; Pipes and supplies freeze; keep water fr; Many communities are off the road system",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species (small game)",
+   "how": "agency species/season pages via web search; sources/species-r2.extract.txt",
+   "url": "https://www.adfg.alaska.gov/index.cfm?adfg=smallgamehunting.hare",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://adfg.alaska.gov/index.cfm?adfg=animals.listfish",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "University of Alaska Fairbanks Cooperative Extension",
+  "extension_url": "https://www.uaf.edu/ces/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

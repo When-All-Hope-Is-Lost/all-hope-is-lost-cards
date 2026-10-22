@@ -15,7 +15,7 @@ cards/
 ```
 - File name = `id` + `.md`. IDs are lowercase kebab-case, prefixed by category (e.g., `fa-severe-bleeding`). **IDs never change once published.** A replaced card gets `status: retired` instead of being deleted.
 - Encoding UTF-8, LF line endings. No images in v1 (text-only keeps the bundle small and avoids image-license problems).
-- Categories (folders): `crisis`, `first-aid`, `water`, `food`, `shelter`, `utilities`, `medication`, `weather`, `security`, `sanitation`, `wildlife`, `animals`, `comms`, `hazmat`, `fire`, `vehicle`, `structure`.
+- Categories (folders): `crisis`, `first-aid`, `water`, `food`, `shelter`, `utilities`, `medication`, `weather`, `security`, `sanitation`, `wildlife`, `animals`, `comms`, `hazmat`, `fire`, `repair`, `community`, `vehicle`, `structure`, `states` (one generated guide per state; data in `states/data/states/*.json`, schema in `states/SCHEMA.md`).
 
 ## 2. Front matter (YAML), required fields
 ```yaml

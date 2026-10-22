@@ -1,0 +1,231 @@
+{
+ "schema_version": "1.0",
+ "code": "OR",
+ "name": "Oregon",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "Oregon Department of Fish and Wildlife",
+  "home_url": "https://myodfw.com/",
+  "regulations_url": "https://myodfw.com/fishing/regulations",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "search"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "rabbits (unprotected; license required)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "California quail",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "western gray squirrel (seasonal, some areas)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "black-tailed and mule deer",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "elk",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "rainbow trout",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "bluegill",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "bass",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "yellow perch",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blackberry/raspberry",
+   "scientific": "Rubus spp.",
+   "lookalike_warning": "No dangerous lookalikes, but confirm it is a thorny bramble and eat only ripe fruit.",
+   "usda_symbols": [
+    "RUBUS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, Brambles",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-02-brambles-pesky-garden-weed-or-delicious-summer-treat",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "blueberry/huckleberry",
+   "scientific": "Vaccinium spp.",
+   "lookalike_warning": "Toxic lookalikes include baneberry (highly toxic red or white berries) and nightshade; know the plant, not just the berry.",
+   "usda_symbols": [
+    "VACCI"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Wisconsin Extension, Baneberry",
+    "url": "https://hort.extension.wisc.edu/articles/baneberry-actaea-spp/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "salal",
+   "scientific": "Gaultheria shallon",
+   "lookalike_warning": "Confirm ID; do not confuse with other dark berries.",
+   "usda_symbols": [
+    "GASH"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "miner's lettuce",
+   "scientific": "Claytonia perfoliata",
+   "lookalike_warning": "Confirm ID from the round leaf around the stem.",
+   "usda_symbols": [
+    "CLPE"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "acorns (leached)",
+   "scientific": "Quercus spp.",
+   "lookalike_warning": "Grind and soak in cold water, changing it often, until no longer bitter (removes tannins). Don't confuse with toxic buckeye nuts, which have no scaly cap.",
+   "usda_symbols": [
+    "QUERC"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Penn State, Go Nuts for Acorns",
+    "url": "https://ecosystems.psu.edu/research/centers/private-forests/news/go-nuts-for-acorns",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "5b-9b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "marine-and-cold-dry",
+ "heating_cooling": "Both seasons matter: plan for winter heat loss and summer heat illness.",
+ "water": {
+  "risks": [
+   "Shellfish can carry biotoxins that cooking does not destroy; check state closures.",
+   "Burned areas can contaminate water supplies and system pipes; follow utility notices.",
+   "Arsenic: USGS estimates roughly 26,000 people here use private wells likely above EPA's arsenic limit (2017 model estimate). Boiling does NOT remove arsenic; test private wells."
+  ],
+  "drinking_water_program": "Search 'Oregon drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-earthquake",
+  "weather-tsunami",
+  "weather-wildfire-smoke",
+  "weather-winter-storm",
+  "weather-extreme-heat"
+ ],
+ "region": "pacific",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "forage wording not yet checked against extension sources: salal, miner's lettuce",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Shellfish can carry biotoxins that cooki; Burned areas can contaminate water suppl",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "search",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://myodfw.com/articles/small-game-hunting-oregon",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "Oregon State University Extension",
+  "extension_url": "https://extension.oregonstate.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

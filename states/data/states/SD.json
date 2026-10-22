@@ -1,0 +1,240 @@
+{
+ "schema_version": "1.0",
+ "code": "SD",
+ "name": "South Dakota",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "South Dakota Game, Fish and Parks",
+  "home_url": "https://gfp.sd.gov/",
+  "regulations_url": "https://gfp.sd.gov/hunting/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "cottontail rabbit",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "tree squirrel",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "ring-necked pheasant",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "white-tailed and mule deer",
+   "seasons": "check agency",
+   "confirmed": false
+  },
+  {
+   "name": "wild turkey",
+   "seasons": "check agency",
+   "confirmed": false
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "walleye",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "yellow perch",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "bluegill and sunfish",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "catfish",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blackberry/raspberry",
+   "scientific": "Rubus spp.",
+   "lookalike_warning": "No dangerous lookalikes, but confirm it is a thorny bramble and eat only ripe fruit.",
+   "usda_symbols": [
+    "RUBUS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, Brambles",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-02-brambles-pesky-garden-weed-or-delicious-summer-treat",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "mulberry",
+   "scientific": "Morus spp.",
+   "lookalike_warning": "Unripe berries upset the stomach.",
+   "usda_symbols": [
+    "MORUS"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild grape",
+   "scientific": "Vitis spp.",
+   "lookalike_warning": "Toxic lookalike: Canada moonseed. Each moonseed berry has one flat crescent-shaped seed; never eat it.",
+   "usda_symbols": [
+    "VITIS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "NC State Extension Plant Toolbox, Menispermum canadense",
+    "url": "https://plants.ces.ncsu.edu/plants/menispermum-canadense/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "lambsquarters",
+   "scientific": "Chenopodium album",
+   "lookalike_warning": "Avoid plants from heavily fertilized fields (nitrates).",
+   "usda_symbols": [
+    "CHAL7"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "purslane",
+   "scientific": "Portulaca oleracea",
+   "lookalike_warning": "Toxic lookalike: prostrate spurge, which has milky white sap. Purslane has clear sap and yellow flowers.",
+   "usda_symbols": [
+    "POOL"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Mississippi State University Extension, Common Purslane",
+    "url": "https://extension.msstate.edu/publications/forgotten-foods-common-purslane",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild onion/garlic",
+   "scientific": "Allium spp.",
+   "lookalike_warning": "Toxic lookalike: death camas, which has no onion smell in any part. No onion smell = do not eat.",
+   "usda_symbols": [
+    "ALLIU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Montana State University Extension, Death camas",
+    "url": "https://www.montana.edu/extension/powderriver/documents/Death%20camas%202020.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "4a-5b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "cold-dry",
+ "heating_cooling": "Cold winters are the main threat. Plan to heat one small room; insulate windows; layer wool or synthetics; never use grills, ovens or generators indoors.",
+ "water": {
+  "risks": [
+   "Farm runoff can raise nitrates in wells. Boiling does NOT remove nitrate and can concentrate it; dangerous for infants under 6 months (CDC, EPA)."
+  ],
+  "drinking_water_program": "Search 'South Dakota drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-winter-storm",
+  "weather-tornado",
+  "weather-drought",
+  "weather-flood"
+ ],
+ "region": "plains",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "game_species: big game not individually confirmed: white-tailed and mule deer, wild turkey",
+  "forage wording not yet checked against extension sources: mulberry, lambsquarters",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Farm runoff can raise nitrates in wells.",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://gfp.sd.gov/fish-limits/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "SDSU Extension",
+  "extension_url": "https://extension.sdstate.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

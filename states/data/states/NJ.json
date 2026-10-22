@@ -1,0 +1,238 @@
+{
+ "schema_version": "1.0",
+ "code": "NJ",
+ "name": "New Jersey",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "New Jersey Division of Fish and Wildlife",
+  "home_url": "https://dep.nj.gov/njfw/",
+  "regulations_url": "https://dep.nj.gov/njfw/hunting/hunting-regulations/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "cottontail rabbit",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "gray squirrel",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "white-tailed deer",
+   "seasons": "check agency",
+   "confirmed": false
+  },
+  {
+   "name": "wild turkey",
+   "seasons": "check agency",
+   "confirmed": false
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "largemouth bass",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "bluegill and pumpkinseed",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "crappie",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blackberry/raspberry",
+   "scientific": "Rubus spp.",
+   "lookalike_warning": "No dangerous lookalikes, but confirm it is a thorny bramble and eat only ripe fruit.",
+   "usda_symbols": [
+    "RUBUS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, Brambles",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-02-brambles-pesky-garden-weed-or-delicious-summer-treat",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "black walnut / hickory nuts",
+   "scientific": "Juglans nigra / Carya spp.",
+   "lookalike_warning": "Buckeye nuts look similar and are toxic.",
+   "usda_symbols": [
+    "JUNI",
+    "CAOV2"
+   ],
+   "usda_present": true,
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild grape",
+   "scientific": "Vitis spp.",
+   "lookalike_warning": "Toxic lookalike: Canada moonseed. Each moonseed berry has one flat crescent-shaped seed; never eat it.",
+   "usda_symbols": [
+    "VITIS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "NC State Extension Plant Toolbox, Menispermum canadense",
+    "url": "https://plants.ces.ncsu.edu/plants/menispermum-canadense/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "persimmon",
+   "scientific": "Diospyros virginiana",
+   "lookalike_warning": "Unripe fruit is not toxic but very astringent; eat only soft, ripe fruit.",
+   "usda_symbols": [
+    "DIVI5"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Mississippi State University Extension, Introduction to Wild Edible Plants",
+    "url": "https://extension.msstate.edu/publications/forgotten-foods-introduction-wild-edible-plants",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "pawpaw",
+   "scientific": "Asimina triloba",
+   "lookalike_warning": "Eat only the ripe pulp. Skin and seeds can cause vomiting.",
+   "usda_symbols": [
+    "ASTR"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, The wonderful wild pawpaw",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-21-wonderful-wild-pawpaw-americas-largest-least-known-tree",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "mulberry",
+   "scientific": "Morus spp.",
+   "lookalike_warning": "Unripe berries upset the stomach.",
+   "usda_symbols": [
+    "MORUS"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "6b-8a",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "mixed-humid",
+ "heating_cooling": "Both seasons matter: plan for winter heat loss and summer heat illness.",
+ "water": {
+  "risks": [
+   "Coastal flooding can push salt water and sewage into supplies.",
+   "Many homes use private wells; test them.",
+   "Arsenic: USGS estimates roughly 41,000 people here use private wells likely above EPA's arsenic limit (2017 model estimate). Boiling does NOT remove arsenic; test private wells."
+  ],
+  "drinking_water_program": "Search 'New Jersey drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-hurricane",
+  "weather-flood",
+  "weather-winter-storm",
+  "weather-extreme-heat"
+ ],
+ "region": "midatlantic",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "game_species: big game not individually confirmed: white-tailed deer, wild turkey",
+  "forage wording not yet checked against extension sources: black walnut / hickory nuts, mulberry",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Coastal flooding can push salt water and; Many homes use private wells; test them.",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "http200",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://dep.nj.gov/njfw/hunting/small-game/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "garden": {
+  "extension_name": "Rutgers Cooperative Extension",
+  "extension_url": "https://njaes.rutgers.edu/extension/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "schema_version": "1.0",
+ "code": "AR",
+ "name": "Arkansas",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "Arkansas Game and Fish Commission",
+  "home_url": "https://www.agfc.com/",
+  "regulations_url": "https://www.agfc.com/regulations/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "white-tailed deer",
+   "seasons": "check agency"
+  },
+  {
+   "name": "eastern cottontail",
+   "seasons": "check agency"
+  },
+  {
+   "name": "gray and fox squirrel",
+   "seasons": "check agency"
+  },
+  {
+   "name": "wild turkey",
+   "seasons": "check agency"
+  },
+  {
+   "name": "swamp rabbit",
+   "seasons": "check agency"
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "bluegill and other bream",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "crappie",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "channel catfish",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "largemouth bass",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "blackberry/raspberry",
+   "scientific": "Rubus spp.",
+   "lookalike_warning": "No dangerous lookalikes, but confirm it is a thorny bramble and eat only ripe fruit.",
+   "usda_symbols": [
+    "RUBUS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, Brambles",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-02-brambles-pesky-garden-weed-or-delicious-summer-treat",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "dandelion",
+   "scientific": "Taraxacum officinale",
+   "lookalike_warning": "Edible, but avoid sprayed lawns, roadsides and industrial sites.",
+   "usda_symbols": [
+    "TAOF"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "University of Minnesota Extension, Can I eat the weeds in my backyard?",
+    "url": "https://extension.umn.edu/yard-and-garden-news/can-i-eat-weeds-my-backyard",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "persimmon",
+   "scientific": "Diospyros virginiana",
+   "lookalike_warning": "Unripe fruit is not toxic but very astringent; eat only soft, ripe fruit.",
+   "usda_symbols": [
+    "DIVI5"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Mississippi State University Extension, Introduction to Wild Edible Plants",
+    "url": "https://extension.msstate.edu/publications/forgotten-foods-introduction-wild-edible-plants",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "pawpaw",
+   "scientific": "Asimina triloba",
+   "lookalike_warning": "Eat only the ripe pulp. Skin and seeds can cause vomiting.",
+   "usda_symbols": [
+    "ASTR"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Illinois Extension, The wonderful wild pawpaw",
+    "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2021-07-21-wonderful-wild-pawpaw-americas-largest-least-known-tree",
+    "date": "2026-10-21"
+   },
+   "native_status": "native",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "mulberry",
+   "scientific": "Morus spp.",
+   "lookalike_warning": "Unripe berries upset the stomach.",
+   "usda_symbols": [
+    "MORUS"
+   ],
+   "usda_present": true,
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild grape",
+   "scientific": "Vitis spp.",
+   "lookalike_warning": "Toxic lookalike: Canada moonseed. Each moonseed berry has one flat crescent-shaped seed; never eat it.",
+   "usda_symbols": [
+    "VITIS"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "NC State Extension Plant Toolbox, Menispermum canadense",
+    "url": "https://plants.ces.ncsu.edu/plants/menispermum-canadense/",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  },
+  {
+   "name": "wild onion/garlic",
+   "scientific": "Allium spp.",
+   "lookalike_warning": "Toxic lookalike: death camas, which has no onion smell in any part. No onion smell = do not eat.",
+   "usda_symbols": [
+    "ALLIU"
+   ],
+   "usda_present": true,
+   "extension_source": {
+    "title": "Montana State University Extension, Death camas",
+    "url": "https://www.montana.edu/extension/powderriver/documents/Death%20camas%202020.pdf",
+    "date": "2026-10-21"
+   },
+   "native_status": "native-and-introduced",
+   "native_status_source": "USDA PLANTS native status for region L48, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "7a-8b",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "hot-humid",
+ "heating_cooling": "Heat is the main threat. Plan shade, airflow and water; rest midday; know cooling centers; watch for heat illness.",
+ "water": {
+  "risks": [
+   "Floods contaminate wells and springs; disinfect and test after flooding."
+  ],
+  "drinking_water_program": "Search 'Arkansas drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-tornado",
+  "weather-flood",
+  "weather-winter-storm",
+  "weather-extreme-heat",
+  "weather-earthquake"
+ ],
+ "region": "southeast",
+ "note": "",
+ "unverified": [
+  "climate_class",
+  "game_species: big-game items (deer, moose, caribou, elk) not individually checked; small game confirmed",
+  "forage wording not yet checked against extension sources: mulberry",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Floods contaminate wells and springs; di",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "water.arsenic",
+   "how": "USGS county estimates, DOI 10.5066/F7CN724V (threshold 10,000 people)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species (small game)",
+   "how": "agency species/season pages via web search; sources/species-r2.extract.txt",
+   "url": "https://www.agfc.com/hunting/more-game/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://www.agfc.com/education/statewide-lengths-and-daily-limits/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "feral_hog_note": "Feral hogs occur in parts of this state, but rules differ widely; some states ban hunting or trapping them to support eradication. Check the agency before taking any hog.",
+ "garden": {
+  "extension_name": "University of Arkansas Cooperative Extension",
+  "extension_url": "https://www.uaex.uada.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}

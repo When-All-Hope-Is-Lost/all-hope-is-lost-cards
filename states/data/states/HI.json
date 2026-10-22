@@ -1,0 +1,143 @@
+{
+ "schema_version": "1.0",
+ "code": "HI",
+ "name": "Hawaii",
+ "last_reviewed": "2026-10-21",
+ "review_status": "draft",
+ "needs_professional_review": true,
+ "agency": {
+  "name": "Hawaii DLNR Division of Forestry and Wildlife (hunting) and Division of Aquatic Resources (fishing)",
+  "home_url": "https://dlnr.hawaii.gov/dofaw/",
+  "regulations_url": "https://dlnr.hawaii.gov/recreation/hunting/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "ok"
+  },
+  "regulations_url_check": {
+   "date": "2026-10-21",
+   "result": "http200-hub"
+  }
+ },
+ "law_note": "Hunting, fishing and trapping need the right license, season and method. Survival needs do not override the law. Check current rules with the agency before taking any animal.",
+ "game_species": [
+  {
+   "name": "introduced game birds (season and stamp)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "feral pigs",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "axis deer (some islands)",
+   "seasons": "check agency",
+   "confirmed": true
+  },
+  {
+   "name": "feral sheep and goats (some units)",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "fish_species": [
+  {
+   "name": "largemouth and smallmouth bass (freshwater game fishing license)",
+   "seasons": "check agency",
+   "confirmed": true
+  }
+ ],
+ "forage": [
+  {
+   "name": "guava",
+   "scientific": "Psidium guajava",
+   "lookalike_warning": "Wash all raw produce in Hawaii: rat lungworm from slugs and snails.",
+   "usda_symbols": [
+    "PSGU"
+   ],
+   "usda_present": true,
+   "native_status": "introduced",
+   "native_status_source": "USDA PLANTS native status for region HI, checked 2026-10-21"
+  },
+  {
+   "name": "mountain apple",
+   "scientific": "Syzygium malaccense",
+   "lookalike_warning": "Wash well; rat lungworm risk on raw produce.",
+   "usda_symbols": [
+    "SYMA2"
+   ],
+   "usda_present": true,
+   "native_status": "introduced",
+   "native_status_source": "USDA PLANTS native status for region HI, checked 2026-10-21"
+  }
+ ],
+ "hardiness_zones": {
+  "value": "10b-13a",
+  "source": "USDA 2023 PHZM ZIP data (PRISM/OSU) via sources/phzm_*_zipcode_2023.csv; all ZIPs in the state",
+  "url": "https://prism.oregonstate.edu/phzm/"
+ },
+ "climate_class": "tropical",
+ "heating_cooling": "Heat is the main threat. Plan shade, airflow and water; rest midday; know cooling centers; watch for heat illness.",
+ "water": {
+  "risks": [
+   "Leptospirosis: avoid wading or swimming in streams and ponds, especially with cuts; boil or treat any stream water (Hawaii DOH).",
+   "Rat lungworm: rinse every leaf of raw produce under running safe water, or freeze 24 hours or cook it; never eat raw snails or slugs (Hawaii DOH).",
+   "Island water systems can be cut off by storms; store water."
+  ],
+  "drinking_water_program": "Search 'Hawaii drinking water program' or ask your water utility; private well guidance: https://www.epa.gov/privatewells",
+  "emergency_treatment": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water"
+ },
+ "hazard_cards": [
+  "weather-hurricane",
+  "weather-tsunami",
+  "weather-flood",
+  "weather-wildfire-smoke",
+  "weather-earthquake"
+ ],
+ "region": "hawaii",
+ "note": "Island supply chains depend on shipping; stock up early.",
+ "unverified": [
+  "climate_class",
+  "forage wording not yet checked against extension sources: guava, mountain apple",
+  "water_risks: hazard facts sourced to CDC/EPA, but which flags apply to this state is not state-sourced: Island water systems can be cut off by s",
+  "Native status is USDA PLANTS regional (lower 48 / AK / HI) status, not a state-by-state native check; genus entries mix native and introduced species"
+ ],
+ "verified": [
+  {
+   "field": "agency.regulations_url",
+   "how": "http200-hub",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage presence",
+   "how": "USDA PLANTS state distribution (sources/usda-plants-dist/)",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "hardiness_zones",
+   "how": "official 2023 PHZM ZIP table x Census 2020 ZCTA-county",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "game_species + fish_species",
+   "how": "agency pages via web search; sources/species-r3.extract.txt",
+   "url": "https://dlnr.hawaii.gov/recreation/hunting/mammal/",
+   "date": "2026-10-21"
+  },
+  {
+   "field": "forage[].native_status",
+   "how": "USDA PLANTS PlantProfile API",
+   "date": "2026-10-21"
+  }
+ ],
+ "species_note": "Hunting areas, tags and lotteries vary by island.",
+ "garden": {
+  "extension_name": "UH CTAHR Cooperative Extension",
+  "extension_url": "https://cms.ctahr.hawaii.edu/",
+  "url_check": {
+   "date": "2026-10-21",
+   "result": "http200"
+  }
+ }
+}
